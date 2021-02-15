@@ -4,7 +4,7 @@
 
 <!-- EngageMate <img src = "./public/images/readMe/EngageMateImageTextLight.png" width = "50px" height = "50px" /> -->
 
-##### Remote teaching delivery? Headache no more!
+#### Remote teaching delivery? Headache no more! :rage:
 
 <!-- https://engagemate.netlify.app/ -->
 
@@ -18,17 +18,23 @@ https://app.diagrams.net/#G1wHdObeptwj1x5e1RuMnxqvQrslN7qjOd -->
 
 ### Our Solution :bulb:
 
-<img src = "./public/images/readMe/1.PNG" width = "50px" height = "50px"/>
+<img src = "./public/images/readMe/1.PNG"/>
 
-### Are you EngagedMate? <img src = "./public/images/readMe/circleLogo.png"/ >
+### Are you EngagedMate? <img src = "./public/images/readMe/circleLogo.png"/>
 
 BEFORE YOU BEGIN :no_entry:
-You have to make sure that you are in the database of users, there are two different types of user (speaker and participant) giving access to different views, features and tools depending upon your authorisation (more about this later). We have enabled a way for you to access our app if you are not in the database by default you are given the participants view.
+<br>
+You have to make sure that you are in the database of users, there are two different types of user (speaker and participant) giving access to different views, features and tools depending upon your authorisation (more about this later).
+<br>
+WAIT :hand:
+<br>
+We have enabled a way for you to access our app if you are not in the database but by default you are given the participants view, you can be added through admin (more on that later).
 
-### Now we can begin
+### Now we can begin :heavy_check_mark:
 
 The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said
 
+<img src = "./public/images/readMe/skfm.PNG" width = "50px" height = "50px"/>
 ### Thumbometer
 
 Speaker instructions
