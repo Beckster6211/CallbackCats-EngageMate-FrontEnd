@@ -2,25 +2,28 @@
 
 ## CallbackCats() :smiley_cat:
 
-EngageMate <img src = "./public/images/readMe/EngageMateImageTextLight.png" width = "50px" height = "50px" />
+<!-- EngageMate <img src = "./public/images/readMe/EngageMateImageTextLight.png" width = "50px" height = "50px" /> -->
 
-Remote teaching delivery? Headache no more!
+##### Remote teaching delivery? Headache no more!
 
-https://engagemate.netlify.app/
+<!-- https://engagemate.netlify.app/ -->
 
 ### Problem :question:
 
-The issue:
 Problem with remote teaching delivery is that it can be really challenging to encourage engagement and participation, as you don’t get the same live feedback and reception that would in real life, making it difficult to gauge audience understanding.
 
-Component tree:
+<!-- Component tree:
 https://app.diagrams.net/#G1DSGVzkPr5P02HP182xF4wKlhERirBVkc
-https://app.diagrams.net/#G1wHdObeptwj1x5e1RuMnxqvQrslN7qjOd
+https://app.diagrams.net/#G1wHdObeptwj1x5e1RuMnxqvQrslN7qjOd -->
 
-### Are you EngagedMate?
+### Our Solution :bulb:
 
-BEFORE YOU BEGIN
-You have to make sure that you are in the database of users, there are two different types of user (speaker and participant) giving access to different views, features and tools depending upon your authorisation (more about this later). If you don't have these logging into the app will be a problem.
+<img src = "./public/images/readMe/1.PNG" width = "50px" height = "50px"/>
+
+### Are you EngagedMate? <img src = "./public/images/readMe/circleLogo.png"/ >
+
+BEFORE YOU BEGIN :no_entry:
+You have to make sure that you are in the database of users, there are two different types of user (speaker and participant) giving access to different views, features and tools depending upon your authorisation (more about this later). We have enabled a way for you to access our app if you are not in the database by default you are given the participants view.
 
 ### Now we can begin
 
