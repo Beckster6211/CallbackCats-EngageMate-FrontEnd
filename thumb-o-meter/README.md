@@ -90,7 +90,7 @@ If had a question to ask open the raise a hand feature (either through the nav b
 <br>
 An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
 <br>
-<img src = "./public/images/readMe/ptrh.PNG"/> <span> <img src = "./public/images/readMe/ptnh.PNG"/>
+<img src = "./public/images/readMe/ptnh.PNG"/> <span> <img src = "./public/images/readMe/ptrh.PNG"/>
 
 Live Quiz
 Speaker instructions
