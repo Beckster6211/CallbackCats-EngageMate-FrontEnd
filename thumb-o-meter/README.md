@@ -115,6 +115,22 @@ The sound sample files need to be placed in the sound folder within the public f
 
 In order for the Spotify playlist to run, you will need to create an app at https://developer.spotify.com/dashboard/applications once you have created a client id and client secret place these inside of the environment variables. By default the playlist url is defined, by default to the School of Code playlist. To change this just replace the url inside of the spotify component.
 
+### Admin :computer:
+
+#### Speaker view only
+
+The admin page is where you can add new users to the database (this is were you can add people in as speaker)
+<br>
+<img src = "./public/images/readMe/aduser.PNG" width = "1000px" height = "500px"/>
+<br>
+You can also check who is in the database as well
+<br>
+<img src = "./public/images/readMe/adminusers.PNG" width = "1000px" height = "500px"/>
+<br>
+You can also look at session data for what the results you have had.
+<br>
+<img src = "./public/images/readMe/adminsessions.PNG" width = "1000px" height = "500px"/>
+
 #### Example :movie_camera:
 
 ##### Do you want a laugh? :laughing:
