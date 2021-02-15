@@ -34,17 +34,43 @@ We have enabled a way for you to access our app if you are not in the database b
 
 The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said
 
-<img src = "./public/images/readMe/skfm.PNG" width = "50px" height = "50px"/> 
-<img src = "./public/images/readMe/ptfm.PNG" width = "50px" height = "50px"/>
+<img src = "./public/images/readMe/skfm.PNG" width = "400px" height = "250px"/> <span> <img src = "./public/images/readMe/ptfm.PNG" width = "400px" height = "250px"/>
 
-### Thumbometer
+<!-- ###### Speaker
 
-Speaker instructions
-Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon). To give a question you can use the drop down to select one of the preset question options provided or if you select custom an input field is then given and you may type your own. Similar to how you can give a timer you can select one of the preset options from the timer drop down or pick custom and an input field is given and you may type your own (numbers in seconds). Then you can pick start and wait for the results. You will see the results displayed by the rotation of the thumb that has now appeared on the scene. Down is low, Up is high. The results are also available as a percentage below as well showing how many participants have already submitted their response. This is handy as if all the participants have already submitted their result and there is time left you can end it with the stop timer button.The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below. That session data is then submitted to the database for a later date.
+<img src = "./public/images/readMe/skfm.PNG" width = "50px" height = "50px"/>
 
-Participant instructions
+###### Participant
+
+<img src = "./public/images/readMe/ptfm.PNG" width = "50px" height = "50px"/> -->
+
+### Thumbometer :thumbsup:
+
+##### Speaker instructions
+
 Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon).
-When the speaker has submitted a question it appears in a heading. The participant can then use the slider below the thumb to register their response to the question. Left is low, right is high as the participant moves the slider the thumb rotates round. Thumb down - low, thumb up - high. The percentage amount of their response is also displayed. The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
+<br>
+To give a question you can use the drop down to select one of the preset question options provided or if you select custom an input field is then given and you may type your own.
+<br>
+Similar to how you can give a timer you can select one of the preset options from the timer drop down or pick custom and an input field is given and you may type your own (numbers in seconds).
+<br>
+Then you can pick start and wait for the results. You will see the results displayed by the rotation of the thumb that has now appeared on the scene. Down is low, Up is high. The results are also available as a percentage below as well showing how many participants have already submitted their response. This is handy as if all the participants have already submitted their result and there is time left you can end it with the stop timer button.The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
+<br>
+That session data is then submitted to the database for a later date (you can opt not to have this happen by clicking the throwaway toggle and that data will not be saved).
+
+<img src = "./public/images/readMe/sktb.PNG"/>
+
+###### Participant instructions
+
+Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon).
+<br>
+When the speaker has submitted a question it appears in a heading.
+<br>
+The participant can then use the slider below the thumb to register their response to the question. Left is low, right is high as the participant moves the slider the thumb rotates round. Thumb down - low, thumb up - high. The percentage amount of their response is also displayed.
+<br>
+The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
+
+<img src = "./public/images/readMe/pttb.PNG"/>
 
 Raise A Hand
 Speaker instructions
