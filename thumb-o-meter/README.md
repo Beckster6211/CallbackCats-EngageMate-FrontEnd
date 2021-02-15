@@ -1,8 +1,14 @@
-CallbackCats - EngageMate
+# School Of Code Project <img src = "./public/images/readMe/logo-51c754388b198e5bbb0d08a971ebbfa2.png" width="50px" height="50px" >
+
+## CallbackCats() :smiley_cat:
+
+EngageMate <img src = "./public/images/readMe/EngageMateImageTextLight.png" width = "50px" height = "50px" />
 
 Remote teaching delivery? Headache no more!
 
 https://engagemate.netlify.app/
+
+### Problem :question:
 
 The issue:
 Problem with remote teaching delivery is that it can be really challenging to encourage engagement and participation, as you don’t get the same live feedback and reception that would in real life, making it difficult to gauge audience understanding.
