@@ -20,7 +20,7 @@ https://app.diagrams.net/#G1wHdObeptwj1x5e1RuMnxqvQrslN7qjOd -->
 
 <img src = "./public/images/readMe/1.PNG"/>
 
-### Are you EngagedMate? <img src = "./public/images/readMe/circleLogo.png"/>
+### Are you EngagedMate? <img src = "./public/images/readMe/circleLogo.png" width = "50px" height = "50px"/>
 
 BEFORE YOU BEGIN :no_entry:
 <br>
@@ -34,7 +34,9 @@ We have enabled a way for you to access our app if you are not in the database b
 
 The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said
 
-<img src = "./public/images/readMe/skfm.PNG" width = "50px" height = "50px"/>
+<img src = "./public/images/readMe/skfm.PNG" width = "50px" height = "50px"/> 
+<img src = "./public/images/readMe/ptfm.PNG" width = "50px" height = "50px"/>
+
 ### Thumbometer
 
 Speaker instructions
