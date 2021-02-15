@@ -91,7 +91,7 @@ If had a question to ask open the raise a hand feature (either through the nav b
 <br>
 An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
 <br>
-<img src = "./public/images/readMe/ptrh.PNG"/> <span></span> <img src = "./public/images/readMe/ptnh.PNG"/>
+<img src = "./public/images/readMe/ptrh.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/ptnh.PNG" width = "470px" height = "500px"/>
 
 ### Live Quiz :mag:
 
@@ -108,7 +108,7 @@ Speaker then shown screen which displays the options and as the participants sub
 The correct answer is shown by being green and incorrect as red.
 <br>
 <br>
-<img src = "./public/images/readMe/sklq1.PNG"/> <span></span> <img src = "./public/images/readMe/sklq2.PNG"/>
+<img src = "./public/images/readMe/sklq1.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/sklq2.PNG" width = "470px" height = "500px"/>
 
 #### Participant instructions
 
@@ -119,7 +119,7 @@ The question is displayed with the answer options available. Participant selects
 If the participant has the correct answer it is shown by the colour their answer turns Green for correct red for incorrect.  
 <br>
 <br>
-<img src = "./public/images/readMe/ptlq1.PNG"/> <span></span> <img src = "./public/images/readMe/ptlq2.PNG"/>
+<img src = "./public/images/readMe/ptlq1.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/ptlq2.PNG" width = "470px" height = "500px"/>
 
 ### DJ Deck :musical_note:
 
@@ -127,14 +127,22 @@ If the participant has the correct answer it is shown by the colour their answer
 
 The sound sample files need to be placed in the sound folder within the public folder. To access them, create a new Audio file and place the file name into a variable.
 
-<img src = "./public/images/readMe/djdk.PNG"/>
+<img src = "./public/images/readMe/djdk.PNG" width = "1000px height" height = "600px"/>
 
 In order for the Spotify playlist to run, you will need to create an app at https://developer.spotify.com/dashboard/applications once you have created a client id and client secret place these inside of the environment variables. By default the playlist url is defined, by default to the School of Code playlist. To change this just replace the url inside of the spotify component.
 
-#### Example
+#### Example :movie_camera:
 
-##### Do you want a laugh?
+##### Do you want a laugh? :laughing:
 
 Here is an example of how our app works. This video is actually us presenting EngageMate when it was in its infancy. When we were more like Callback Kittens.
-(link to demo day video)
+<br>
+https://www.youtube.com/watch?v=p23oB7cUReQ&t=1s
+<br>
 The video shows as well as how the app works, the planning and also what technologies were used in creating it, where they were implemented and how.
+<br>
+You can also see our app if you `npm run start` a local host version will be shown
+<br>
+Or the deployed version :iphone:
+<br>
+https://engagemate.netlify.app/
