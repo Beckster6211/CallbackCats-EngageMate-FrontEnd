@@ -2,19 +2,11 @@
 
 ## CallbackCats() :smiley_cat:
 
-<!-- EngageMate <img src = "./public/images/readMe/EngageMateImageTextLight.png" width = "50px" height = "50px" /> -->
-
 #### Remote teaching delivery? Headache no more! :rage:
-
-<!-- https://engagemate.netlify.app/ -->
 
 ### Problem :question:
 
 Problem with remote teaching delivery is that it can be really challenging to encourage engagement and participation, as you don’t get the same live feedback and reception that would in real life, making it difficult to gauge audience understanding.
-
-<!-- Component tree:
-https://app.diagrams.net/#G1DSGVzkPr5P02HP182xF4wKlhERirBVkc
-https://app.diagrams.net/#G1wHdObeptwj1x5e1RuMnxqvQrslN7qjOd -->
 
 ### Our Solution :bulb:
 
@@ -37,14 +29,6 @@ The feature menu is your paracetamol displaying tools that we have designed to h
 <br>
 
 <img src = "./public/images/readMe/skfm.PNG" width = "45%" height = "250px"/> <span></span> <img src = "./public/images/readMe/ptfm.PNG" width = "45%" height = "250px"/>
-
-<!-- ###### Speaker
-
-<img src = "./public/images/readMe/skfm.PNG" width = "50px" height = "50px"/>
-
-###### Participant
-
-<img src = "./public/images/readMe/ptfm.PNG" width = "50px" height = "50px"/> -->
 
 ### Thumbometer :thumbsup:
 
@@ -127,7 +111,7 @@ If the participant has the correct answer it is shown by the colour their answer
 
 The sound sample files need to be placed in the sound folder within the public folder. To access them, create a new Audio file and place the file name into a variable.
 
-<img src = "./public/images/readMe/djdk.PNG" width = "1000px height" height = "600px"/>
+<img src = "./public/images/readMe/djdk.PNG" width = "1000px height" height = "500px"/>
 
 In order for the Spotify playlist to run, you will need to create an app at https://developer.spotify.com/dashboard/applications once you have created a client id and client secret place these inside of the environment variables. By default the playlist url is defined, by default to the School of Code playlist. To change this just replace the url inside of the spotify component.
 
