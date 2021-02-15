@@ -32,7 +32,9 @@ We have enabled a way for you to access our app if you are not in the database b
 
 ### Now we can begin :heavy_check_mark:
 
-The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said
+The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said.
+<br>
+<br>
 
 <img src = "./public/images/readMe/skfm.PNG" width = "400px" height = "250px"/> <span> <img src = "./public/images/readMe/ptfm.PNG" width = "400px" height = "250px"/>
 
@@ -46,7 +48,7 @@ The feature menu is your paracetamol displaying tools that we have designed to h
 
 ### Thumbometer :thumbsup:
 
-##### Speaker instructions
+#### Speaker instructions
 
 Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon).
 <br>
@@ -57,10 +59,10 @@ Similar to how you can give a timer you can select one of the preset options fro
 Then you can pick start and wait for the results. You will see the results displayed by the rotation of the thumb that has now appeared on the scene. Down is low, Up is high. The results are also available as a percentage below as well showing how many participants have already submitted their response. This is handy as if all the participants have already submitted their result and there is time left you can end it with the stop timer button.The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
 <br>
 That session data is then submitted to the database for a later date (you can opt not to have this happen by clicking the throwaway toggle and that data will not be saved).
-
+<br>
 <img src = "./public/images/readMe/sktb.PNG"/>
 
-###### Participant instructions
+##### Participant instructions
 
 Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon).
 <br>
@@ -69,15 +71,26 @@ When the speaker has submitted a question it appears in a heading.
 The participant can then use the slider below the thumb to register their response to the question. Left is low, right is high as the participant moves the slider the thumb rotates round. Thumb down - low, thumb up - high. The percentage amount of their response is also displayed.
 <br>
 The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
-
+<br>
 <img src = "./public/images/readMe/pttb.PNG"/>
 
-Raise A Hand
-Speaker instructions
-When a hand is raised a notification is sent to the speaker, the list of hands raised is viewable by opening the raise a hand feature (either through the nav bar or by clicking on the hand icon). The hands are shown in a list along with the name of who submitted it. As well as knowing the name and the order can also know the rough idea of what the question entails (useful as the speaker can see if multiple hands have the same sort of question).
+### Raise A Hand :raising_hand:
 
-Participant instructions
-If had a question to ask open the raise a hand feature (either through the nav bar or by clicking on the hand icon). Click the icon of a closed hand this will send a notification to the speaker that a hand has been raised with the name attached to it. An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
+#### Speaker instructions
+
+When a hand is raised a notification is sent to the speaker, the list of hands raised is viewable by opening the raise a hand feature (either through the nav bar or by clicking on the hand icon).
+<br>
+The hands are shown in a list along with the name of who submitted it. As well as knowing the name and the order can also know the rough idea of what the question entails (useful as the speaker can see if multiple hands have the same sort of question).
+<br>
+<img src = "./public/images/readMe/sknh.PNG"/> <span> <img src = "./public/images/readMe/skrh.PNG"/>
+
+#### Participant instructions
+
+If had a question to ask open the raise a hand feature (either through the nav bar or by clicking on the hand icon). Click the icon of a closed hand this will send a notification to the speaker that a hand has been raised with the name attached to it.
+<br>
+An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
+<br>
+<img src = "./public/images/readMe/ptrh.PNG"/> <span> <img src = "./public/images/readMe/ptnh.PNG"/>
 
 Live Quiz
 Speaker instructions
