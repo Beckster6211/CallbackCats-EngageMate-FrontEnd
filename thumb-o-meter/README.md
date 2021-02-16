@@ -132,13 +132,13 @@ The admin page is where you can add new users to the database (this is were you 
 You can also check who is in the database as well.
 <br>
 <br>
-<img src = "./public/images/readMe/adminusers.PNG" width = "1000px" height = "500px"/>
+<img src = "./public/images/readMe/users.PNG" width = "1000px" height = "500px"/>
 <br>
 <br>
 You can also look at session data for what the results you have had.
 <br>
 <br>
-<img src = "./public/images/readMe/users.PNG" width = "1000px" height = "500px"/>
+<img src = "./public/images/readMe/adminsessions.PNG" width = "1000px" height = "500px"/>
 
 #### Example :movie_camera:
 
