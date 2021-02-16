@@ -2,7 +2,7 @@
 
 ## Front-End :nut_and_bolt:
 
-Technologies used to create the front-end development of our app.
+Technologies used to create the front-end development of our app (some of them).
 
 ### Construction :hammer:
 
