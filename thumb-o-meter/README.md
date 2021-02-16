@@ -119,17 +119,20 @@ In order for the Spotify playlist to run, you will need to create an app at http
 
 #### Speaker view only
 
-The admin page is where you can add new users to the database (this is were you can add people in as speaker)
+The admin page is where you can add new users to the database (this is were you can add people in as speaker).
+<br>
 <br>
 <img src = "./public/images/readMe/aduser.PNG" width = "1000px" height = "500px"/>
 <br>
-You can also check who is in the database as well
+You can also check who is in the database as well.
+<br>
 <br>
 <img src = "./public/images/readMe/adminusers.PNG" width = "1000px" height = "500px"/>
 <br>
 You can also look at session data for what the results you have had.
 <br>
-<img src = "./public/images/readMe/adminsessions.PNG" width = "1000px" height = "500px"/>
+<br>
+<img src = "./public/images/readMe/users.PNG" width = "1000px" height = "500px"/>
 
 #### Example :movie_camera:
 
@@ -137,12 +140,16 @@ You can also look at session data for what the results you have had.
 
 Here is an example of how our app works. This video is actually us presenting EngageMate when it was in its infancy. When we were more like Callback Kittens.
 <br>
+<br>
 https://www.youtube.com/watch?v=p23oB7cUReQ&t=1s
+<br>
 <br>
 The video shows as well as how the app works, the planning and also what technologies were used in creating it, where they were implemented and how.
 <br>
 You can also see our app if you `npm run start` a local host version will be shown
 <br>
+<br>
 Or the deployed version :iphone:
+<br>
 <br>
 https://engagemate.netlify.app/
