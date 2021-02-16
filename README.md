@@ -28,7 +28,7 @@ The feature menu is your paracetamol displaying tools that we have designed to h
 <br>
 <br>
 
-<img src = "./thumb-o-meter/public/images/readMe/skfm.PNG" width = "49%" height = "500px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptfm.PNG" width = "49%" height = "500px"/>
+<img src = "./thumb-o-meter/public/images/readMe/skfm.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptfm.PNG" width = "49%" height = "400px"/>
 
 ### Thumbometer :thumbsup:
 
@@ -69,7 +69,7 @@ When a hand is raised a notification is sent to the speaker, the list of hands r
 The hands are shown in a list along with the name of who submitted it. As well as knowing the name and the order can also know the rough idea of what the question entails (useful as the speaker can see if multiple hands have the same sort of question).
 <br>
 <br>
-<img src = "./thumb-o-meter/public/images/readMe/sknh.PNG" width = "49%" height = "500px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/skrh.PNG" width = "49%" height = "500px"/>
+<img src = "./thumb-o-meter/public/images/readMe/sknh.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/skrh.PNG" width = "49%" height = "400px"/>
 
 #### Participant instructions
 
@@ -78,7 +78,7 @@ If had a question to ask open the raise a hand feature (either through the nav b
 An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
 <br>
 <br>
-<img src = "./thumb-o-meter/public/images/readMe/ptnh.PNG" width = "49%" height = "500px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptrh.PNG" width = "49%" height = "500px"/>
+<img src = "./thumb-o-meter/public/images/readMe/ptnh.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptrh.PNG" width = "49%" height = "400px"/>
 
 ### Live Quiz :mag:
 
@@ -95,7 +95,7 @@ Speaker then shown screen which displays the options and as the participants sub
 The correct answer is shown by being green and incorrect as red.
 <br>
 <br>
-<img src = "./thumb-o-meter/public/images/readMe/sklq1.PNG" width = "49%" height = "500px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/sklq2.PNG" width = "49%" height = "500px"/>
+<img src = "./thumb-o-meter/public/images/readMe/sklq1.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/sklq2.PNG" width = "49%" height = "400px"/>
 
 #### Participant instructions
 
@@ -106,7 +106,7 @@ The question is displayed with the answer options available. Participant selects
 If the participant has the correct answer it is shown by the colour their answer turns Green for correct red for incorrect.  
 <br>
 <br>
-<img src = "./thumb-o-meter/public/images/readMe/ptlq1.PNG" width = "49%" height = "500px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptlq2.PNG" width = "49%" height = "500px"/>
+<img src = "./thumb-o-meter/public/images/readMe/ptlq1.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptlq2.PNG" width = "49%" height = "400px"/>
 
 ### DJ Deck :musical_note:
 
