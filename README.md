@@ -6,7 +6,7 @@
 
 ### Problem :question:
 
-Problem with remote teaching delivery is that it can be really challenging to encourage engagement and participation, as you don’t get the same live feedback and reception that would in real life, making it difficult to gauge audience understanding.
+Problem with remote teaching delivery is that it can be really challenging to encourage engagement and participation, as you don’t get the same live feedback and reception that would in real time, making it difficult to gauge audience understanding.
 
 ### Our Solution :bulb:
 
@@ -20,14 +20,13 @@ You have to make sure that you are in the database of users, there are two diffe
 <br>
 WAIT :hand:
 <br>
-We have enabled a way for you to access our app if you are not in the database but by default you are given the participants view, you can be added through admin (more on that later).
+We have enabled a way for you to access our app if you are not in the database but by default you are given the participants view, you can be properly added through the admin page, this is were can also put the role (more on that later).
 
 ### Now we can begin :heavy_check_mark:
 
-The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that you are digesting what is being said.
+The feature menu is your paracetamol displaying tools that we have designed to help with the headache. The Thumbometer feature can help with gauging how everyone is feeling, are you going at the right speed? The right level? Etc. The Raise A Hand feature can help with being able to ask and answer questions when they arise. Live Poll/Quiz feature can help with making sure that what is being said is being understood.
 <br>
 <br>
-
 <img src = "./thumb-o-meter/public/images/readMe/skfm.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptfm.PNG" width = "49%" height = "400px"/>
 
 ### Thumbometer :thumbsup:
@@ -38,11 +37,11 @@ Open the thumbometer feature (either through the nav bar or by clicking on the t
 <br>
 To give a question you can use the drop down to select one of the preset question options provided or if you select custom an input field is then given and you may type your own.
 <br>
-Similar to how you can give a timer you can select one of the preset options from the timer drop down or pick custom and an input field is given and you may type your own (numbers in seconds).
+Similarly you can give a timer by selecting one of the preset options from the timer drop down or pick custom and an input field is given and you may type your own (numbers in seconds).
 <br>
-Then you can pick start and wait for the results. You will see the results displayed by the rotation of the thumb that has now appeared on the scene. Down is low, Up is high. The results are also available as a percentage below as well showing how many participants have already submitted their response. This is handy as if all the participants have already submitted their result and there is time left you can end it with the stop timer button.The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
+Then you can pick start and wait for the results. You will see the results displayed by the rotation of the thumb that has now appeared on the scene. Down is low, Up is high. The results are also available as a percentage below as well showing how many participants have already submitted their response. This is handy as if all the participants have already submitted their result and there is time left you can end it with the stop timer button. The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
 <br>
-That session data is then submitted to the database for a later date (you can opt not to have this happen by clicking the throwaway toggle and that data will not be saved).
+That session data is then submitted to the database for a later date (you can opt not to have this happen by clicking the throwaway toggle before pressing start and that data will not be saved).
 <br>
 <br>
 <img src = "./thumb-o-meter/public/images/readMe/sktb.PNG" width = "1000px" height = "500px"/>
@@ -66,7 +65,7 @@ The time amount is displayed with a progression bar and when it gets down to 5 s
 
 When a hand is raised a notification is sent to the speaker, the list of hands raised is viewable by opening the raise a hand feature (either through the nav bar or by clicking on the hand icon).
 <br>
-The hands are shown in a list along with the name of who submitted it. As well as knowing the name and the order can also know the rough idea of what the question entails (useful as the speaker can see if multiple hands have the same sort of question).
+The hands are shown in a list along with the name of who submitted it. As well as knowing the name and the order also displaying a rough idea of what the question entails (useful as the speaker can see if multiple hands have the same sort of question).
 <br>
 <br>
 <img src = "./thumb-o-meter/public/images/readMe/sknh.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/skrh.PNG" width = "49%" height = "400px"/>
@@ -75,7 +74,7 @@ The hands are shown in a list along with the name of who submitted it. As well a
 
 If had a question to ask open the raise a hand feature (either through the nav bar or by clicking on the hand icon). Click the icon of a closed hand this will send a notification to the speaker that a hand has been raised with the name attached to it.
 <br>
-An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
+An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask, the raise hand then shows that have a question and also topic. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
 <br>
 <br>
 <img src = "./thumb-o-meter/public/images/readMe/ptnh.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptrh.PNG" width = "49%" height = "400px"/>
@@ -86,7 +85,7 @@ An added feature is that could also use the input field to put a topic. Not the 
 
 If wanted to test your audience could give them an on the spot question, open the live quiz feature (either through the nav bar or by clicking on the face icon).
 <br>
-To give a question you can use the drop down to select custom an input field is then given and you may type your own.
+To give a question you can use the drop down to select custom, an input field is then given and you may type your own.
 <br>
 After creating answer options for the question with the pencil icon (maximum of 4, you can remove the last option with the bin icon), select the correct answer with the buttons next to each answer(this will not be visible to the participants) and submit that question.
 <br>
@@ -101,9 +100,9 @@ The correct answer is shown by being green and incorrect as red.
 
 When a live quiz poll has been started by the speaker, open the live quiz feature (either through the nav bar or by clicking on the face icon).
 <br>
-The question is displayed with the answer options available. Participant selects their answer and this is submitted back to the speaker.
+The question is displayed with the answer options available. Participant selects and submits their answer and this is then sent back to the speaker.
 <br>
-If the participant has the correct answer it is shown by the colour their answer turns Green for correct red for incorrect.  
+If the participant has the correct answer it is shown by the colour their answer turns, Green for correct, red for incorrect.  
 <br>
 <br>
 <img src = "./thumb-o-meter/public/images/readMe/ptlq1.PNG" width = "49%" height = "400px"/> <span></span> <img src = "./thumb-o-meter/public/images/readMe/ptlq2.PNG" width = "49%" height = "400px"/>
@@ -129,13 +128,13 @@ The admin page is where you can add new users to the database (this is were you 
 <img src = "./thumb-o-meter/public/images/readMe/aduser.PNG" width = "1000px" height = "500px"/>
 <br>
 <br>
-You can also check who is in the database as well.
+You can also check who is already in the database and remove people.
 <br>
 <br>
 <img src = "./thumb-o-meter/public/images/readMe/users.PNG" width = "1000px" height = "500px"/>
 <br>
 <br>
-You can also look at session data for what the results you have had.
+You can also look at session data for the results you have had.
 <br>
 <br>
 <img src = "./thumb-o-meter/public/images/readMe/adminsessions.PNG" width = "1000px" height = "500px"/>
@@ -150,7 +149,7 @@ Here is an example of how our app works. This video is actually us presenting En
 https://www.youtube.com/watch?v=p23oB7cUReQ&t=1s
 <br>
 <br>
-The video shows as well as how the app works, the planning and also what technologies were used in creating it, where they were implemented and how.
+The video shows as well as how the app works, the planning also what technologies were used in creating it, where they were implemented and how.
 <br>
 You can also see our app if you `npm run start` a local host version will be shown
 <br>
@@ -159,3 +158,7 @@ Or the deployed version :iphone:
 <br>
 <br>
 https://engagemate.netlify.app/
+<br>
+<br>
+
+## Thank You
