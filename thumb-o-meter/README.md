@@ -57,6 +57,7 @@ The participant can then use the slider below the thumb to register their respon
 <br>
 The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
 <br>
+<br>
 <img src = "./public/images/readMe/pttb.PNG" width = "1000px" height = "500px"/>
 
 ### Raise A Hand :raising_hand:
@@ -67,7 +68,8 @@ When a hand is raised a notification is sent to the speaker, the list of hands r
 <br>
 The hands are shown in a list along with the name of who submitted it. As well as knowing the name and the order can also know the rough idea of what the question entails (useful as the speaker can see if multiple hands have the same sort of question).
 <br>
-<img src = "./public/images/readMe/sknh.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/skrh.PNG" width = "470px" height = "500px"/>
+<br>
+<img src = "./public/images/readMe/sknh.PNG" width = "45%" height = "500px"/> <span></span> <img src = "./public/images/readMe/skrh.PNG" width = "45%" height = "500px"/>
 
 #### Participant instructions
 
@@ -75,7 +77,8 @@ If had a question to ask open the raise a hand feature (either through the nav b
 <br>
 An added feature is that could also use the input field to put a topic. Not the whole question but just a few words showing the general idea of what want to ask. The raised hand can be put back down by clicking the hand icon again which has now changed to an open hand (or the speaker could reset the hand from their view).
 <br>
-<img src = "./public/images/readMe/ptnh.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/ptrh.PNG" width = "470px" height = "500px"/>
+<br>
+<img src = "./public/images/readMe/ptnh.PNG" width = "45%" height = "500px"/> <span></span> <img src = "./public/images/readMe/ptrh.PNG" width = "45%" height = "500px"/>
 
 ### Live Quiz :mag:
 
@@ -92,7 +95,7 @@ Speaker then shown screen which displays the options and as the participants sub
 The correct answer is shown by being green and incorrect as red.
 <br>
 <br>
-<img src = "./public/images/readMe/sklq1.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/sklq2.PNG" width = "470px" height = "500px"/>
+<img src = "./public/images/readMe/sklq1.PNG" width = "45%" height = "500px"/> <span></span> <img src = "./public/images/readMe/sklq2.PNG" width = "45%" height = "500px"/>
 
 #### Participant instructions
 
@@ -103,14 +106,15 @@ The question is displayed with the answer options available. Participant selects
 If the participant has the correct answer it is shown by the colour their answer turns Green for correct red for incorrect.  
 <br>
 <br>
-<img src = "./public/images/readMe/ptlq1.PNG" width = "470px" height = "500px"/> <span></span> <img src = "./public/images/readMe/ptlq2.PNG" width = "470px" height = "500px"/>
+<img src = "./public/images/readMe/ptlq1.PNG" width = "45%" height = "500px"/> <span></span> <img src = "./public/images/readMe/ptlq2.PNG" width = "45%" height = "500px"/>
 
 ### DJ Deck :musical_note:
 
 #### Speaker View only
 
 The sound sample files need to be placed in the sound folder within the public folder. To access them, create a new Audio file and place the file name into a variable.
-
+<br>
+<br>
 <img src = "./public/images/readMe/djdk.PNG" width = "1000px height" height = "500px"/>
 
 In order for the Spotify playlist to run, you will need to create an app at https://developer.spotify.com/dashboard/applications once you have created a client id and client secret place these inside of the environment variables. By default the playlist url is defined, by default to the School of Code playlist. To change this just replace the url inside of the spotify component.
@@ -124,10 +128,12 @@ The admin page is where you can add new users to the database (this is were you 
 <br>
 <img src = "./public/images/readMe/aduser.PNG" width = "1000px" height = "500px"/>
 <br>
+<br>
 You can also check who is in the database as well.
 <br>
 <br>
 <img src = "./public/images/readMe/adminusers.PNG" width = "1000px" height = "500px"/>
+<br>
 <br>
 You can also look at session data for what the results you have had.
 <br>
