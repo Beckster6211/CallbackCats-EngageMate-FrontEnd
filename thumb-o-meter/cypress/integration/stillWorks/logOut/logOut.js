@@ -6,13 +6,13 @@ function logOut() {
     it("Get the logout button by going through the nav bar and div elements checking them with their class names, confirm has 'Log Out' as text and then click the 'Log Out' button", () => {
       cy.wait(1000);
       cy.get("nav")
-        .should("have.class", "navBar_container__16Rem css-135tgfi")
+        .should("have.class", "navBar_container__3TR1W css-135tgfi")
         .find("div")
-        .should("have.class", "navBar_box__2huli css-ozv6cb")
+        .should("have.class", "navBar_box__3EZrK css-ozv6cb")
         .find("div")
-        .should("have.class", "navBar_navigation__2KIo9 css-k008qs")
+        .should("have.class", "navBar_navigation__2tOIC css-k008qs")
         .find("button")
-        .should("have.class", "chakra-button logout_btn__1eIMF css-zgm9my")
+        .should("have.class", "chakra-button logout_btn__3P-26 css-zgm9my")
         .contains("Log Out")
         .click();
       cy.wait(3000);

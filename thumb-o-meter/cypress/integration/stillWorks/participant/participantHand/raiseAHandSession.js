@@ -12,7 +12,7 @@ function participantRaiseHandSession() {
     it("Find image and click to raise the hand", () => {
       cy.get("img")
         .eq(1)
-        .should("have.class", "hand_hand__2-yiY")
+        .should("have.class", "hand_hand__2CwSx")
         .wait(1000)
         .click();
     });

@@ -5,21 +5,21 @@ function speakerThumbSession() {
   describe("Check for question dropdown", () => {
     it("get question drop down", () => {
       cy.wait(1000);
-      cy.get("div").should("have.class", "skView_container__8oHCA");
+      cy.get("div").should("have.class", "skThumb_container__1X4wz");
       cy.get("div")
         .should("have.class", "chakra-select__wrapper css-42b2qy")
         .eq(0);
       cy.get("select")
-        .should("have.class", "chakra-select skView_select__39swe css-ts6fv")
+        .should("have.class", "chakra-select skThumb_select__1BCKK css-ts6fv")
         .eq(0);
       cy.get("option").eq(0).contains("Select Question");
       //set custom question
-      cy.get("div").should("have.class", "skView_container__8oHCA");
+      cy.get("div").should("have.class", "skThumb_container__1X4wz");
       cy.get("div")
         .should("have.class", "chakra-select__wrapper css-42b2qy")
         .eq(0);
       cy.get("select")
-        .should("have.class", "chakra-select skView_select__39swe css-ts6fv")
+        .should("have.class", "chakra-select skThumb_select__1BCKK css-ts6fv")
         .eq(0)
         .select("Set a custom question.")
         .should("have.value", "custom");
@@ -35,21 +35,21 @@ function speakerThumbSession() {
   describe("Check for timer dropdown", () => {
     it("get timer drop down", () => {
       cy.wait(1000);
-      cy.get("div").should("have.class", "skView_container__8oHCA");
+      cy.get("div").should("have.class", "skThumb_container__1X4wz");
       cy.get("div")
         .should("have.class", "chakra-select__wrapper css-42b2qy")
         .eq(1);
       cy.get("select")
-        .should("have.class", "chakra-select skView_select__39swe css-ts6fv")
+        .should("have.class", "chakra-select skThumb_select__1BCKK css-ts6fv")
         .eq(1);
       cy.get("option").eq(5).contains("Timer Amount");
       //trying to select timer
-      cy.get("div").should("have.class", "skView_container__8oHCA");
+      cy.get("div").should("have.class", "skThumb_container__1X4wz");
       cy.get("div")
         .should("have.class", "chakra-select__wrapper css-42b2qy")
         .eq(1);
       cy.get("select")
-        .should("have.class", "chakra-select skView_select__39swe css-ts6fv")
+        .should("have.class", "chakra-select skThumb_select__1BCKK css-ts6fv")
         .eq(1)
         .select("Set a custom time.")
         .should("have.value", "custom");
@@ -65,12 +65,13 @@ function speakerThumbSession() {
   describe("Check for start timer button", () => {
     it("get start timer button", () => {
       cy.wait(1000);
-      cy.get("div").should("have.class", "skView_container__8oHCA");
-      cy.get("div").should("have.class", "css-gmuwbf");
-      cy.get("div").should("have.class", "skView_container__8oHCA");
-      cy.get("div").should("have.class", "skView_buttons__1X2Y_");
+      // cy.get("div").should("have.class", "skThumb_container__1X4wz");
+      // cy.get("div").should("have.class", "css-gmuwbf");
+      // cy.get("div").should("have.class", "skView_container__8oHCA");
+      cy.get("div").should("have.class", "skThumb_container__1X4wz");
+      cy.get("div").should("have.class", "skThumb_buttons__1yQkM");
       cy.get("button")
-        .should("have.class", "chakra-button skView_button__1AOqf css-ywjnlx")
+        .should("have.class", "chakra-button skThumb_button__2Hiz- css-ywjnlx")
         .contains("Start Timer")
         .click();
       cy.wait(1000);

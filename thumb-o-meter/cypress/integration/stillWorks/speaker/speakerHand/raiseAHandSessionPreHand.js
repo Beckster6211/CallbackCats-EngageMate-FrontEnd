@@ -14,11 +14,11 @@ function speakerRaiseHandPreHand() {
     it("Check for notification on raise a hand", () => {
       cy.wait(1500);
       cy.get("div")
-        .should("have.class", "menu_container__16sI5")
+        .should("have.class", "menu_container__9rw4K")
         .find("div")
-        .should("have.class", "menu_players__3qFH2")
+        .should("have.class", "menu_players__3lOjS")
         .find("div")
-        .should("have.class", "menu_notify__sAV1M css-0")
+        .should("have.class", "menu_notify__2TNsh css-0")
         .find("p")
         .contains(0);
     });

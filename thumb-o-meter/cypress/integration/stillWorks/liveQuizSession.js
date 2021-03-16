@@ -4,6 +4,7 @@ import darkMode from "./darkMode/darkMode";
 import checkingForQuizFeature from "./featureMenu/checkingQuiz/checkQuiz";
 import speakerLiveQuizSession from "./speaker/speakerQuiz/liveQuizSpeakerSession";
 import participantQuizSession from "./participant/participantQuiz/participantQuizSession";
+//import speakerStopQuizSession from "./speaker/speakerQuiz/liveQuizSpeakerSessionStop"; issues as leaves speaker page
 import logOut from "./logOut/logOut";
 
 openingScreen();

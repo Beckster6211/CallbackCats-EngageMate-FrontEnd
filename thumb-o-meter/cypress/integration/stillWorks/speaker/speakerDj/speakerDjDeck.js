@@ -5,14 +5,14 @@ function speakerDjDeck() {
       cy.get("section")
         .find("div")
         .eq(14)
-        .should("have.class", "deck_player__3EZHJ")
+        .should("have.class", "deck_player__2UZgF")
         .find("p")
         .contains("Hackathon");
       //playing hackathon tune for 5 seconds
       cy.get("section")
         .find("div")
         .eq(14)
-        .should("have.class", "deck_player__3EZHJ")
+        .should("have.class", "deck_player__2UZgF")
         .find("button")
         .eq(0)
         .click();
@@ -21,7 +21,7 @@ function speakerDjDeck() {
       cy.get("section")
         .find("div")
         .eq(14)
-        .should("have.class", "deck_player__3EZHJ")
+        .should("have.class", "deck_player__2UZgF")
         .find("button")
         .eq(2)
         .click();
@@ -31,14 +31,14 @@ function speakerDjDeck() {
       cy.get("section")
         .find("div")
         .eq(0)
-        .should("have.class", "deck_player__3EZHJ")
+        .should("have.class", "deck_player__2UZgF")
         .find("p")
         .contains("Engaged 1");
       //playing Chris Engaged 1 tune
       cy.get("section")
         .find("div")
         .eq(0)
-        .should("have.class", "deck_player__3EZHJ")
+        .should("have.class", "deck_player__2UZgF")
         .find("button")
         .eq(0)
         .click();

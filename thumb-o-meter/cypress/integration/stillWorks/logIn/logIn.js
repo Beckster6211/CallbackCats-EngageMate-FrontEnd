@@ -18,18 +18,18 @@ function logIn(email, password) {
   describe("Log in app page", () => {
     it("Get EngageMate logo image tag, tagline confirming text and get button by class name and confirm has 'Log In' and then clicks the 'Log In' button", () => {
       // cy.wait(1000);
-      cy.get("img").should("have.class", "login_myImg__2i5yo");
+      cy.get("img").should("have.class", "login_myImg__1RN5U");
       cy.get("p")
-        .should("have.class", "chakra-text login_heading__34g74 css-0")
+        .should("have.class", "chakra-text login_heading__189Xe css-0")
         .contains("EngageMate");
       cy.get("h2")
-        .should("have.class", "subheading_subheading__3iiDQ")
+        .should("have.class", "subheading_subheading__2T_UW")
         .contains("Your real time remote learning companion");
       cy.get("div")
         .should("have.class", "chakra-stack css-d9swal")
         .eq(0)
         .find("button")
-        .should("have.class", "loginButton_loginButton__105Rd")
+        .should("have.class", "loginButton_loginButton__muE4-")
         .contains("Log In")
         .click();
     });

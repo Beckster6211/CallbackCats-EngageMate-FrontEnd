@@ -37,7 +37,7 @@ function speakerRaiseHandAfterHand() {
       cy.get("h2")
         .should(
           "have.class",
-          "chakra-heading heading_container__2B5Og css-zey6tx"
+          "chakra-heading heading_container__12Hqb css-zey6tx"
         )
         .contains("Raise Hand");
     });
@@ -46,12 +46,12 @@ function speakerRaiseHandAfterHand() {
   describe("Checking the list of hand raises", () => {
     it("Get the ul and check for list item with same as participant input", () => {
       cy.get("div")
-        .should("have.class", "skHand_container__20KHR")
+        .should("have.class", "skHand_container__2bYze")
         .find("section")
-        .should("have.class", "skHand_handsList__2asfu")
+        .should("have.class", "skHand_handsList__191W5")
         .find("ul")
         .find("li")
-        .should("have.class", "skHand_handRaise__1plw0")
+        .should("have.class", "skHand_handRaise__2FjAN")
         .contains("Test?");
     });
   });
@@ -59,14 +59,14 @@ function speakerRaiseHandAfterHand() {
   describe("Getting rid of question", () => {
     it("Get the X to lower the hand", () => {
       cy.get("div")
-        .should("have.class", "skHand_container__20KHR")
+        .should("have.class", "skHand_container__2bYze")
         .find("section")
-        .should("have.class", "skHand_handsList__2asfu")
+        .should("have.class", "skHand_handsList__191W5")
         .find("ul")
         .find("li")
-        .should("have.class", "skHand_handRaise__1plw0")
+        .should("have.class", "skHand_handRaise__2FjAN")
         .find("button")
-        .should("have.class", "skHand_myBtn__198zE")
+        .should("have.class", "skHand_myBtn__Rncnt")
         .click();
     });
   });
