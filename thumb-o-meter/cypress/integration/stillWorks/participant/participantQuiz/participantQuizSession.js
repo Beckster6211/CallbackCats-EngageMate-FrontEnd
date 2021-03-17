@@ -1,10 +1,10 @@
-function participantQuizSession() {
+function participantQuizSession(question, option1) {
   describe("Participant Live Quiz session", () => {
     it("Check for the question heading and has correct text", () => {
       cy.get("div")
         .should("have.class", "ptPoll_sessionBox__3dks4")
         .get("p")
-        .contains("Testing?");
+        .contains(question);
     });
 
     it("Check for option 1 and contains correct text", () => {
@@ -13,7 +13,7 @@ function participantQuizSession() {
         .get("li")
         .should("have.class", "ptPoll_option__2ly3B")
         .eq(0)
-        .contains("Option 1");
+        .contains(option1);
     });
 
     it("Select option 1 as the answer", () => {

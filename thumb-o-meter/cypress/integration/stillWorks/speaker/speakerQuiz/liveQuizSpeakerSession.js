@@ -1,4 +1,4 @@
-function speakerLiveQuizSession() {
+function speakerLiveQuizSession(question, option1, option2, option3) {
   describe("Speaker starting a live quiz session", () => {
     it("Find select a question drop down, select custom question and input testing?", () => {
       cy.get("div")
@@ -15,7 +15,7 @@ function speakerLiveQuizSession() {
         .should("have.value", "custom");
       cy.get("input")
         .should("have.class", "chakra-input css-1j4w011")
-        .type("Testing?");
+        .type(question);
     });
   });
 
@@ -33,7 +33,7 @@ function speakerLiveQuizSession() {
       cy.get("input")
         .should("have.class", "chakra-input css-k8y3ie")
         .eq(1)
-        .type("Option 1");
+        .type(option1);
     });
     it("Get the input field for option 2 and type text into it", () => {
       cy.get("div")
@@ -48,7 +48,7 @@ function speakerLiveQuizSession() {
       cy.get("input")
         .should("have.class", "chakra-input css-k8y3ie")
         .eq(3)
-        .type("Option 2");
+        .type(option2);
     });
     it("Get the input field for option 3 and type text into it", () => {
       cy.get("div")
@@ -63,7 +63,7 @@ function speakerLiveQuizSession() {
       cy.get("input")
         .should("have.class", "chakra-input css-k8y3ie")
         .eq(5)
-        .type("Option 3");
+        .type(option3);
     });
     it("Make an option 4 and then delete it", () => {
       cy.get("div")
