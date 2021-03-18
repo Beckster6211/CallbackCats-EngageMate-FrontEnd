@@ -403,24 +403,6 @@ function speakerAdmin() {
           cy.get("th").eq(6).contains("Responses");
           cy.get("th").eq(7).contains("Throwaway");
         });
-
-      //   .find("div")
-      //   .should("have.class", "admin_userTable__2uCq4")
-      //   .find("table")
-      //   .should("have.class", "chakra-table css-1ac7ejl")
-      //   .find("thead")
-      //   .should("have.class", "css-0")
-      //   .find("tr")
-      //   .should("have.class", "css-0")
-      //   .eq(0)
-      //   .within(() => {
-      //     cy.get("th").eq(1).contains("First name");
-      //     cy.get("th").eq(2).contains("Surname");
-      //     cy.get("th").eq(3).contains("Role");
-      //     cy.get("th").eq(4).contains("Bootcamper Id");
-      //     cy.get("th").eq(5).contains("Cohort no");
-      //     cy.get("th").eq(6).contains("Email");
-      //   });
     });
   });
 }
