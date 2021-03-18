@@ -271,6 +271,89 @@ function speakerAdmin() {
         .should("have.id", "tabs-9--tab-0")
         .contains("Users");
       // .click();
+      // cy.get("main")
+      //   .should("have.class", "admin_main__2iRjR")
+      //   .find("div")
+      //   .eq(16)
+      //   .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
+      //   .find("div")
+      //   .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
+      //   .find("div")
+      //   .should("have.id", "tabs-9--tabpanel-0")
+      //   .find("div")
+      //   .should("have.class", "admin_userTable__2uCq4")
+      //   .find("table")
+      //   .should("have.class", "chakra-table css-1ac7ejl")
+      //   .find("caption")
+      //   .should("have.class", "css-gdv02")
+      //   .contains("Registered users");
+      // //check table headings
+      // cy.get("main")
+      //   .should("have.class", "admin_main__2iRjR")
+      //   .find("div")
+      //   .eq(16)
+      //   .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
+      //   .find("div")
+      //   .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
+      //   .find("div")
+      //   .should("have.id", "tabs-9--tabpanel-0")
+      //   .find("div")
+      //   .should("have.class", "admin_userTable__2uCq4")
+      //   .find("table")
+      //   .should("have.class", "chakra-table css-1ac7ejl")
+      //   .find("thead")
+      //   .should("have.class", "css-0")
+      //   .find("tr")
+      //   .should("have.class", "css-0")
+      //   .eq(0)
+      //   .within(() => {
+      //     cy.get("th").eq(1).contains("First name");
+      //     cy.get("th").eq(2).contains("Surname");
+      //     cy.get("th").eq(3).contains("Role");
+      //     cy.get("th").eq(4).contains("Bootcamper Id");
+      //     cy.get("th").eq(5).contains("Cohort no");
+      //     cy.get("th").eq(6).contains("Email");
+      //   });
+      // //check a user in the table
+      // cy.get("main")
+      //   .should("have.class", "admin_main__2iRjR")
+      //   .find("div")
+      //   .eq(16)
+      //   .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
+      //   .find("div")
+      //   .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
+      //   .find("div")
+      //   .should("have.id", "tabs-9--tabpanel-0")
+      //   .find("div")
+      //   .should("have.class", "admin_userTable__2uCq4")
+      //   .find("table")
+      //   .should("have.class", "chakra-table css-1ac7ejl")
+      //   .find("tbody")
+      //   .children("tr")
+      //   .eq(2);
+      // .within(() => {
+      //   cy.get("td").eq(1).contains("Amelia");
+      //   cy.get("td").eq(2).contains("Collins-Patel");
+      //   cy.get("td").eq(3).contains("bootcamper");
+      //   cy.get("td").eq(4).contains("1236");
+      //   cy.get("td").eq(5).contains("4");
+      //   cy.get("td").eq(6).contains("ameliacollinspatel@gmail.com");
+      // });
+    });
+    it("Check sessions table", () => {
+      //get to sessions table
+      cy.get("main")
+        .should("have.class", "admin_main__2iRjR")
+        .find("div")
+        .eq(16)
+        .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
+        .find("div")
+        .should("have.class", "chakra-tabs__tablist css-1xhq01z")
+        .find("button")
+        .eq(1)
+        .should("have.id", "tabs-9--tab-1")
+        .contains("Sessions")
+        .click();
       cy.get("main")
         .should("have.class", "admin_main__2iRjR")
         .find("div")
@@ -279,15 +362,18 @@ function speakerAdmin() {
         .find("div")
         .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
         .find("div")
-        .should("have.id", "tabs-9--tabpanel-0")
+        .eq(2)
+        .should("have.id", "tabs-9--tabpanel-1")
         .find("div")
-        .should("have.class", "admin_userTable__2uCq4")
+        .eq(0)
+        .should("have.class", "admin_sessionTable__2Ulq3")
         .find("table")
         .should("have.class", "chakra-table css-1ac7ejl")
         .find("caption")
         .should("have.class", "css-gdv02")
-        .contains("Registered users");
-      //check table headings
+        .contains("Previous Sessions");
+      //session table heading
+      // //check table headings
       cy.get("main")
         .should("have.class", "admin_main__2iRjR")
         .find("div")
@@ -296,9 +382,11 @@ function speakerAdmin() {
         .find("div")
         .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
         .find("div")
-        .should("have.id", "tabs-9--tabpanel-0")
+        .eq(2)
+        .should("have.id", "tabs-9--tabpanel-1")
         .find("div")
-        .should("have.class", "admin_userTable__2uCq4")
+        .eq(0)
+        .should("have.class", "admin_sessionTable__2Ulq3")
         .find("table")
         .should("have.class", "chakra-table css-1ac7ejl")
         .find("thead")
@@ -307,13 +395,32 @@ function speakerAdmin() {
         .should("have.class", "css-0")
         .eq(0)
         .within(() => {
-          cy.get("th").eq(1).contains("First name");
-          cy.get("th").eq(2).contains("Surname");
-          cy.get("th").eq(3).contains("Role");
-          cy.get("th").eq(4).contains("Bootcamper Id");
-          cy.get("th").eq(5).contains("Cohort no");
-          cy.get("th").eq(6).contains("Email");
+          cy.get("th").eq(1).contains("Date");
+          cy.get("th").eq(2).contains("Question");
+          cy.get("th").eq(3).contains("Outcome");
+          cy.get("th").eq(4).contains("Coach");
+          cy.get("th").eq(5).contains("Participants");
+          cy.get("th").eq(6).contains("Responses");
+          cy.get("th").eq(7).contains("Throwaway");
         });
+
+      //   .find("div")
+      //   .should("have.class", "admin_userTable__2uCq4")
+      //   .find("table")
+      //   .should("have.class", "chakra-table css-1ac7ejl")
+      //   .find("thead")
+      //   .should("have.class", "css-0")
+      //   .find("tr")
+      //   .should("have.class", "css-0")
+      //   .eq(0)
+      //   .within(() => {
+      //     cy.get("th").eq(1).contains("First name");
+      //     cy.get("th").eq(2).contains("Surname");
+      //     cy.get("th").eq(3).contains("Role");
+      //     cy.get("th").eq(4).contains("Bootcamper Id");
+      //     cy.get("th").eq(5).contains("Cohort no");
+      //     cy.get("th").eq(6).contains("Email");
+      //   });
     });
   });
 }
@@ -339,4 +446,6 @@ cy.contains('My first client').parent('tr').within(() => {
   cy.get('td').eq(3).contains('Active')
   cy.get('td').eq(4).contains('button', 'Edit').click()
 })
+//chris eq(44)
+
 */
