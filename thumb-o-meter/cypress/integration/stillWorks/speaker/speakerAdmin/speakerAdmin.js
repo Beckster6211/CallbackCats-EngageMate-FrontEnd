@@ -373,7 +373,6 @@ function speakerAdmin() {
         .should("have.class", "css-gdv02")
         .contains("Previous Sessions");
       //session table heading
-      // //check table headings
       cy.get("main")
         .should("have.class", "admin_main__2iRjR")
         .find("div")
