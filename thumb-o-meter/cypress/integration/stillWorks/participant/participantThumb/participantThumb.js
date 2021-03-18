@@ -39,3 +39,5 @@ function participantThumbSession() {
 }
 
 export default participantThumbSession;
+
+// 43 lines code

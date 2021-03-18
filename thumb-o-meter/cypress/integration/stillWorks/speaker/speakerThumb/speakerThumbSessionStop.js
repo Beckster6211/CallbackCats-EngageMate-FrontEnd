@@ -1,6 +1,7 @@
 function speakerStopThumbSession() {
   describe("Speaker stopping thumbometer session", () => {
     describe("Check for stop timer button", () => {
+      // stop button
       it("Get stop timer button and click", () => {
         cy.wait(1000);
         cy.get(

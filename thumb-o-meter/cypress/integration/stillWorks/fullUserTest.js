@@ -1,5 +1,6 @@
 import openingScreen from "./openingScreen/openingScreen";
 import logIn from "./logIn/logIn";
+import logOut from "./logOut/logOut";
 import darkMode from "./darkMode/darkMode";
 import lightMode from "./lightMode/lightMode";
 import backButton from "./backButton/backButton";
@@ -18,10 +19,13 @@ darkMode();
 checkingForThumbOMeterFeature();
 // backButton();
 speakerThumbSession("Question", 100);
-speakerStopThumbSession();
+backButton();
+
+// speakerStopThumbSession();
 // checkingForHandFeature();
 // backButton();
 // checkingForQuizFeature();
 // backButton();
 // checkingForDjDeck();
 // backButton();
+// logOut();
