@@ -1,7 +1,7 @@
 //speaker setting a seesion on thumbometer page
 
 function speakerThumbSession(question, timer) {
-  describe("Speaker starting thumbometer session ", () => {
+  describe("Speaker starting thumbometer session", () => {
     describe("Check for question dropdown", () => {
       it("Get question drop down, check contents, select preset then change to custom and add a question", () => {
         cy.wait(1000);
@@ -52,7 +52,8 @@ function speakerThumbSession(question, timer) {
         //select preset timer
         cy.get("select.chakra-select,skThumb_select__1BCKK,css-ts6fv")
           .eq(1)
-          .select("Timer Amount");
+          .select("20 Seconds")
+          .should("have.value", 20);
         // select custom timer
         cy.get("select.chakra-select,skThumb_select__1BCKK,css-ts6fv")
           .eq(1)
