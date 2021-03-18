@@ -6,7 +6,7 @@ import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
-// lightMode();
 // darkMode();
-speakerAdmin();
+// // lightMode();
+// // darkMode();
+// speakerAdmin();

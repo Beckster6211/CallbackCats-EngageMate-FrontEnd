@@ -1,76 +1,39 @@
 //sign in and getting to feature menu
 
 function logIn(email, password) {
-  // describe("Log in app page", () => {
-  //   it("Get heading by class name and confirm has 'EngageMate' as the text, get button by class name and confirm has 'Log In' and then clicks the 'Log In' button", () => {
-  //     cy.wait(1000);
-  //     cy.get("h2")
-  //       .should("have.class", "chakra-heading css-zey6tx")
-  //       .contains("EngageMate");
-  //     cy.get("button")
-  //       .should("have.class", "chakra-button css-q6vfdv")
-  //       .contains("Log In");
-  //     cy.wait(1000);
-  //     cy.get("button").should("have.class", "chakra-button css-q6vfdv").click();
-  //   });
-  // });
-
   describe("Log in app page", () => {
     it("Get EngageMate logo image tag, tagline confirming text and get button by class name and confirm has 'Log In' and then clicks the 'Log In' button", () => {
-      // cy.wait(1000);
-      cy.get("img").should("have.class", "login_myImg__1RN5U");
-      cy.get("p")
-        .should("have.class", "chakra-text login_heading__189Xe css-0")
-        .contains("EngageMate");
-      cy.get("h2")
-        .should("have.class", "subheading_subheading__2T_UW")
-        .contains("Your real time remote learning companion");
-      cy.get("div")
-        .should("have.class", "chakra-stack css-d9swal")
-        .eq(0)
-        .find("button")
-        .should("have.class", "loginButton_loginButton__muE4-")
+      cy.get("img.login_myImg__1RN5U");
+      cy.get("div.login_logoBox__5cPn4").within(() => {
+        cy.get("p").contains("EngageMate");
+        cy.get("h2").contains("Your real time remote learning companion");
+      });
+      cy.get("div.css-d9swal")
+        .children("button.loginButton_loginButton__muE4-")
         .contains("Log In")
         .click();
     });
   });
 
   describe("Auth0 log in page", () => {
-    it("Get div with the input field for the username by class name and type in username, get div with the input field for the password by class name and type password in and get button by class name and confirm has text 'Log In' and then clicks the 'Log In' button", () => {
+    it("Get input field for users email address and type in email address, get input field for password and type password in, get log in button confirm has text 'Log In' then click the 'Log In' button", () => {
       // cy.wait(1000);
-      cy.get("div").should(
-        "have.class",
-        "auth0-lock-input-block auth0-lock-input-email"
-      );
-      cy.get("div")
-        .should(
-          "have.class",
-          "auth0-lock-input-wrap auth0-lock-input-wrap-with-icon"
-        )
-        .get("input")
-        .should("have.class", "auth0-lock-input")
+      cy.get("div.auth0-lock-input-block,auth0-lock-input-email")
+        .get("div.auth0-lock-input-wrap,auth0-lock-input-wrap-with-icon")
+        .get("input.auth0-lock-input")
         .first()
         .type(email);
+      // works with just this line cy.get("input.auth0-lock-input").first().type(email);
       // cy.wait(1000);
-      cy.get("div").should(
-        "have.class",
-        "auth0-lock-input-block auth0-lock-input-show-password"
-      );
-      cy.get("div").should(
-        "have.class",
-        "auth0-lock-input-block auth0-lock-input-password"
-      );
-      cy.get("div")
-        .should(
-          "have.class",
-          "auth0-lock-input-wrap auth0-lock-input-wrap-with-icon"
-        )
-        .get("input")
-        .should("have.class", "auth0-lock-input")
+      cy.get("div.auth0-lock-input-block,auth0-lock-input-show-password")
+        .get("div.auth0-lock-input-block,auth0-lock-input-password")
+        .get("div.auth0-lock-input-wrap,auth0-lock-input-wrap-with-icon")
+        .get("input.auth0-lock-input")
         .last()
         .type(password);
+      // works with just this line cy.get("input.auth0-lock-input").last().type(password);
       // cy.wait(1000);
-      cy.get("button").should("have.class", "auth0-lock-submit").click();
+      cy.get("button.auth0-lock-submit").click();
     });
   });
 }
