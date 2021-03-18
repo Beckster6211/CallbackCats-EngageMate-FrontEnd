@@ -4,12 +4,16 @@ import logOut from "./logOut/logOut";
 import darkMode from "./darkMode/darkMode";
 import lightMode from "./lightMode/lightMode";
 import backButton from "./backButton/backButton";
+//thumb
 import checkingForThumbOMeterFeature from "./featureMenu/checkingThumb/checkThumb";
+import speakerThumbSession from "./speaker/speakerThumb/speakerThumb";
+import participantThumbSession from "./participant/participantThumb/participantThumb";
+import speakerStopThumbSession from "./speaker/speakerThumb/speakerThumbSessionStop";
+
+//hand
 import checkingForHandFeature from "./featureMenu/checkingHand/checkHand";
 import checkingForQuizFeature from "./featureMenu/checkingQuiz/checkQuiz";
 import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
-import speakerThumbSession from "./speaker/speakerThumb/speakerThumb";
-import speakerStopThumbSession from "./speaker/speakerThumb/speakerThumbSessionStop";
 
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
@@ -20,8 +24,20 @@ checkingForThumbOMeterFeature();
 // backButton();
 speakerThumbSession("Question", 100);
 backButton();
-
-// speakerStopThumbSession();
+logOut();
+logIn("participantview@gmail.com", "(callbackCats)");
+darkMode();
+checkingForThumbOMeterFeature();
+participantThumbSession();
+backButton();
+logOut();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
+checkingForThumbOMeterFeature();
+speakerStopThumbSession();
+backButton();
+logOut();
+//////
 // checkingForHandFeature();
 // backButton();
 // checkingForQuizFeature();

@@ -68,10 +68,9 @@ function speakerThumbSession(question, timer) {
       it("Get start timer button and click", () => {
         cy.wait(1000);
         //get start timer button
-        cy.get(
-          "button.chakra-button,skThumb_button__2Hiz-,css-ywjnlx"
-        ).contains("Start Timer");
-        // .click();
+        cy.get("button.chakra-button,skThumb_button__2Hiz-,css-ywjnlx")
+          .contains("Start Timer")
+          .click();
         cy.wait(1000);
       });
     });

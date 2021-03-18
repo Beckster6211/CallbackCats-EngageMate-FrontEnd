@@ -4,10 +4,9 @@ function speakerStopThumbSession() {
       // stop button
       it("Get stop timer button and click", () => {
         cy.wait(1000);
-        cy.get(
-          "button.chakra-button,skThumb_button__2Hiz-,css-mdlog5"
-        ).contains("Stop Timer");
-        // .click();
+        cy.get("button.chakra-button,skThumb_button__2Hiz-,css-mdlog5")
+          .contains("Stop Timer")
+          .click();
         cy.wait(1000);
       });
     });
