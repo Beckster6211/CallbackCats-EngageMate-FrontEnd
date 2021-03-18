@@ -1,15 +1,3 @@
-/*
-opening screen 
-log in 
-dark mode
-light mode
-check for thumb feature
-thumbometer session 
-speaker 
-participant 
-
-*/
-
 import openingScreen from "./openingScreen/openingScreen";
 import logIn from "./logIn/logIn";
 import darkMode from "./darkMode/darkMode";
@@ -19,6 +7,8 @@ import checkingForThumbOMeterFeature from "./featureMenu/checkingThumb/checkThum
 import checkingForHandFeature from "./featureMenu/checkingHand/checkHand";
 import checkingForQuizFeature from "./featureMenu/checkingQuiz/checkQuiz";
 import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
+import speakerThumbSession from "./speaker/speakerThumb/speakerThumb";
+import speakerStopThumbSession from "./speaker/speakerThumb/speakerThumbSessionStop";
 
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
@@ -26,10 +16,12 @@ darkMode();
 // lightMode();
 // darkMode();
 checkingForThumbOMeterFeature();
-backButton();
-checkingForHandFeature();
-backButton();
-checkingForQuizFeature();
-backButton();
-checkingForDjDeck();
-backButton();
+// backButton();
+speakerThumbSession("Question", 100);
+speakerStopThumbSession();
+// checkingForHandFeature();
+// backButton();
+// checkingForQuizFeature();
+// backButton();
+// checkingForDjDeck();
+// backButton();
