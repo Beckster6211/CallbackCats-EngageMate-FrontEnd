@@ -14,9 +14,9 @@ function speakerAdmin() {
           .contains("Admin")
           .click();
       });
-      // speakerAdminAddUser("Cypress", "Testing", "cypressTesting.gmail.com");
-      // speakerAdminSendAppMessage("Cypress message");
-      // speakerAdminUsersTable();
+      speakerAdminAddUser("Cypress", "Testing", "cypressTesting@gmail.com");
+      speakerAdminSendAppMessage("Cypress message");
+      speakerAdminUsersTable();
       speakerAdminSessionTable();
     });
   });
