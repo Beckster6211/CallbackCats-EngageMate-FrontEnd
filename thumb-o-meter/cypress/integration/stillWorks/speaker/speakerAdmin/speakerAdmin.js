@@ -1,5 +1,6 @@
 import speakerAdminAddUser from "./speakerAdminAddUser";
 import speakerAdminSendAppMessage from "./speakerAdminSendAppMessage";
+import speakerAdminUsersTable from "./speakerAdminUserTable";
 function speakerAdmin() {
   describe("Speaker Admin test", () => {
     describe("Speaker navigate to admin page, check add user form, send app message, user and session tables", () => {
@@ -13,91 +14,10 @@ function speakerAdmin() {
           .click();
       });
       // speakerAdminAddUser("Cypress", "Testing", "cypressTesting.gmail.com");
-      speakerAdminSendAppMessage("Cypress message");
+      // speakerAdminSendAppMessage("Cypress message");
+      speakerAdminUsersTable();
     });
   });
-  // });
-  // it("Check looking for users in table", () => {
-  //   cy.get("main")
-  //     .should("have.class", "admin_main__2iRjR")
-  //     .find("div")
-  //     .eq(16)
-  //     .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
-  //     .find("div")
-  //     .should("have.class", "chakra-tabs__tablist css-1xhq01z")
-  //     .find("button")
-  //     .should("have.id", "tabs-9--tab-0")
-  //     .contains("Users");
-  //   // .click();
-  //   // cy.get("main")
-  //   //   .should("have.class", "admin_main__2iRjR")
-  //   //   .find("div")
-  //   //   .eq(16)
-  //   //   .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
-  //   //   .find("div")
-  //   //   .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
-  //   //   .find("div")
-  //   //   .should("have.id", "tabs-9--tabpanel-0")
-  //   //   .find("div")
-  //   //   .should("have.class", "admin_userTable__2uCq4")
-  //   //   .find("table")
-  //   //   .should("have.class", "chakra-table css-1ac7ejl")
-  //   //   .find("caption")
-  //   //   .should("have.class", "css-gdv02")
-  //   //   .contains("Registered users");
-  //   // //check table headings
-  //   // cy.get("main")
-  //   //   .should("have.class", "admin_main__2iRjR")
-  //   //   .find("div")
-  //   //   .eq(16)
-  //   //   .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
-  //   //   .find("div")
-  //   //   .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
-  //   //   .find("div")
-  //   //   .should("have.id", "tabs-9--tabpanel-0")
-  //   //   .find("div")
-  //   //   .should("have.class", "admin_userTable__2uCq4")
-  //   //   .find("table")
-  //   //   .should("have.class", "chakra-table css-1ac7ejl")
-  //   //   .find("thead")
-  //   //   .should("have.class", "css-0")
-  //   //   .find("tr")
-  //   //   .should("have.class", "css-0")
-  //   //   .eq(0)
-  //   //   .within(() => {
-  //   //     cy.get("th").eq(1).contains("First name");
-  //   //     cy.get("th").eq(2).contains("Surname");
-  //   //     cy.get("th").eq(3).contains("Role");
-  //   //     cy.get("th").eq(4).contains("Bootcamper Id");
-  //   //     cy.get("th").eq(5).contains("Cohort no");
-  //   //     cy.get("th").eq(6).contains("Email");
-  //   //   });
-  //   // //check a user in the table
-  //   // cy.get("main")
-  //   //   .should("have.class", "admin_main__2iRjR")
-  //   //   .find("div")
-  //   //   .eq(16)
-  //   //   .should("have.class", "chakra-tabs admin_tab__2ytNg css-13o7eu2")
-  //   //   .find("div")
-  //   //   .should("have.class", "chakra-tabs__tab-panels css-8atqhb")
-  //   //   .find("div")
-  //   //   .should("have.id", "tabs-9--tabpanel-0")
-  //   //   .find("div")
-  //   //   .should("have.class", "admin_userTable__2uCq4")
-  //   //   .find("table")
-  //   //   .should("have.class", "chakra-table css-1ac7ejl")
-  //   //   .find("tbody")
-  //   //   .children("tr")
-  //   //   .eq(2);
-  //   // .within(() => {
-  //   //   cy.get("td").eq(1).contains("Amelia");
-  //   //   cy.get("td").eq(2).contains("Collins-Patel");
-  //   //   cy.get("td").eq(3).contains("bootcamper");
-  //   //   cy.get("td").eq(4).contains("1236");
-  //   //   cy.get("td").eq(5).contains("4");
-  //   //   cy.get("td").eq(6).contains("ameliacollinspatel@gmail.com");
-  //   // });
-  // });
   // it("Check sessions table", () => {
   //   //get to sessions table
   //   cy.get("main")
