@@ -13,23 +13,29 @@ import speakerStopThumbSession from "./speaker/speakerThumb/speakerThumbSessionS
 
 //hand
 import checkingForHandFeature from "./featureMenu/checkingHand/checkHand";
+import speakerRaiseHandPreHand from "./speaker/speakerHand/raiseAHandSessionPreHand";
+import participantRaiseHandSession from "./participant/participantHand/raiseAHandSession";
+import speakerRaiseHandAfterHand from "./speaker/speakerHand/raiseAHandSessionAfterHand";
 //quiz
 import checkingForQuizFeature from "./featureMenu/checkingQuiz/checkQuiz";
 //dj deck
 import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
 //admin
 
-openingScreen();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
+////////Thumbometer test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
 // lightMode();
 // darkMode();
-checkingForThumbOMeterFeature();
+// checkingForThumbOMeterFeature();
 // backButton();
-speakerThumbSession("Question", 100);
+// speakerThumbSession("Question", 100);
 // backButton();
 // logOut();
 // logIn("participantview@gmail.com", "(callbackCats)");
+// darkMode();
+// lightMode();
 // darkMode();
 // checkingForThumbOMeterFeature();
 // participantThumbSession();
@@ -41,10 +47,41 @@ speakerThumbSession("Question", 100);
 // speakerStopThumbSession();
 // backButton();
 // logOut();
-//////
+
+//////hand test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
+// speakerRaiseHandPreHand();
+// // checkingForHandFeature();
+// // backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
 // checkingForHandFeature();
+// participantRaiseHandSession("topic test?");
 // backButton();
-// checkingForQuizFeature();
+// logOut();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// checkingForHandFeature();
+// speakerRaiseHandAfterHand("topic test?");
+// backButton();
+// logOut();
+
+/////quiz test
+openingScreen();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
+// lightMode();
+// darkMode();
+checkingForQuizFeature();
+
+///////
 // backButton();
 // checkingForDjDeck();
 // backButton();
