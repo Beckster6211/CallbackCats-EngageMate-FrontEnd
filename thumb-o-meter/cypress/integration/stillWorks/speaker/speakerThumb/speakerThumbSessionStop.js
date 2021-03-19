@@ -14,5 +14,3 @@ function speakerStopThumbSession() {
 }
 
 export default speakerStopThumbSession;
-// code 20 lines
-// after refactoring 17 lines

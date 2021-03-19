@@ -79,5 +79,3 @@ function speakerThumbSession(question, timer) {
 }
 
 export default speakerThumbSession;
-// code 120 lines long
-// after refactoring 83

@@ -26,6 +26,7 @@ import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
 import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
 //admin
 import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
+
 ////////Thumbometer test
 // openingScreen();
 // logIn("speakerview@gmail.com", "(callbackCats)");
@@ -119,9 +120,10 @@ import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 // logOut();
 
 ///////admin test
-openingScreen();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
-// lightMode();
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
 // darkMode();
-speakerAdmin();
+// // lightMode();
+// // darkMode();
+// speakerAdmin();
+// logOut();

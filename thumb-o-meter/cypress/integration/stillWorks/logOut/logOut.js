@@ -14,6 +14,3 @@ function logOut() {
 }
 
 export default logOut;
-
-//code 25 lines
-// refactor 19 lines
