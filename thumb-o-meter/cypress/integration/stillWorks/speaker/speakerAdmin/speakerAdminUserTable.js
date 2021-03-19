@@ -10,7 +10,7 @@ function speakerAdminUsersTable() {
         .contains("Registered users");
     });
 
-    it("Get user table headings and confirm has 'First name', 'Surname', 'Bootcamper Id', 'CoHort no', 'Email' as text", () => {
+    it("Get user table headings and confirm has 'First name', 'Surname', 'Role', 'Bootcamper Id', 'CoHort no', 'Email' as text", () => {
       cy.get("div#tabs-9--tabpanel-0")
         .find("table.chakra-table,css-1ac7ejl")
         .find("thead.css-0")
