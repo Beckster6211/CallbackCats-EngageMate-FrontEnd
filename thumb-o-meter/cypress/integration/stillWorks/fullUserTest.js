@@ -24,6 +24,7 @@ import participantQuizSession from "./participant/participantQuiz/participantQui
 //dj deck
 import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
 //admin
+import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
 
 ////////Thumbometer test
 // openingScreen();
@@ -76,37 +77,43 @@ import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
 // backButton();
 // logOut();
 
-/////quiz test
+// /////quiz test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
+// checkingForQuizFeature();
+// speakerLiveQuizSession(
+//   "Question",
+//   "Answer Option 1",
+//   "Answer Option 2",
+//   "Answer Option 3",
+//   "Answer Option 4"
+// );
+// // backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
+// checkingForQuizFeature();
+// participantQuizSession(
+//   "Question",
+//   "Answer Option 1",
+//   "Answer Option 2",
+//   "Answer Option 3"
+// );
+// backButton();
+// logOut();
+
+/////// dj deck test
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 // lightMode();
 // darkMode();
-checkingForQuizFeature();
-speakerLiveQuizSession(
-  "Question",
-  "Answer Option 1",
-  "Answer Option 2",
-  "Answer Option 3",
-  "Answer Option 4"
-);
-// backButton();
-logOut();
-logIn("participantview@gmail.com", "(callbackCats)");
-darkMode();
-// lightMode();
-// darkMode();
-checkingForQuizFeature();
-participantQuizSession(
-  "Question",
-  "Answer Option 1",
-  "Answer Option 2",
-  "Answer Option 3"
-);
+checkingForDjDeck();
+speakerDjDeck();
 backButton();
 logOut();
-///////
-// backButton();
-// checkingForDjDeck();
-// backButton();
-// logOut();
