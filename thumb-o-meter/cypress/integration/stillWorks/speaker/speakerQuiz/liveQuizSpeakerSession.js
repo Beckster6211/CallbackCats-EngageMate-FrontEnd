@@ -1,101 +1,69 @@
-function speakerLiveQuizSession(question, option1, option2, option3) {
-  describe("Speaker starting a live quiz session", () => {
-    it("Find select a question drop down, select custom question and input testing?", () => {
-      cy.get("div")
-        .should("have.class", "skPoll_container__3gJaD")
-        .get("form")
-        .get("select")
-        .should("have.class", "chakra-select css-18wj7tk")
-        .get("option")
-        .eq(0)
-        .contains("Select a question");
-      cy.get("select")
-        .should("have.class", "chakra-select css-18wj7tk")
-        .select("Set a custom question")
-        .should("have.value", "custom");
-      cy.get("input")
-        .should("have.class", "chakra-input css-1j4w011")
-        .type(question);
-    });
-  });
+function speakerLiveQuizSession(question, option1, option2, option3, option4) {
+  describe("Speaker Live Quiz test", () => {
+    describe("Speaker setting a question, answer options, select correct answer and submit", () => {
+      it("Get question drop down, select custom question and input question?", () => {
+        cy.get("form.skPoll_select__33B4f")
+          .get("select.chakra-select,css-18wj7tk")
+          .get("option")
+          .eq(0)
+          .contains("Select a question");
+        cy.get("select.chakra-select,css-18wj7tk")
+          .select("Set a custom question")
+          .should("have.value", "custom");
+        cy.get("input.chakra-input,css-1j4w011").type(question);
+      });
 
-  describe("Make options and input test text into them", () => {
-    it("Get the input field for option 1 and type text into it", () => {
-      cy.get("div")
-        .should("have.class", "skPoll_container__3gJaD")
-        .get("form")
-        .get("div")
-        .should("have.class", "chakra-stack css-d9swal")
-        .get("button")
-        .should("have.class", "chakra-button css-pazafr")
-        .eq(3)
-        .click();
-      cy.get("input")
-        .should("have.class", "chakra-input css-k8y3ie")
-        .eq(1)
-        .type(option1);
-    });
-    it("Get the input field for option 2 and type text into it", () => {
-      cy.get("div")
-        .should("have.class", "skPoll_container__3gJaD")
-        .get("form")
-        .get("div")
-        .should("have.class", "chakra-stack css-d9swal")
-        .get("button")
-        .should("have.class", "chakra-button css-pazafr")
-        .eq(3)
-        .click();
-      cy.get("input")
-        .should("have.class", "chakra-input css-k8y3ie")
-        .eq(3)
-        .type(option2);
-    });
-    it("Get the input field for option 3 and type text into it", () => {
-      cy.get("div")
-        .should("have.class", "skPoll_container__3gJaD")
-        .get("form")
-        .get("div")
-        .should("have.class", "chakra-stack css-d9swal")
-        .get("button")
-        .should("have.class", "chakra-button css-pazafr")
-        .eq(3)
-        .click();
-      cy.get("input")
-        .should("have.class", "chakra-input css-k8y3ie")
-        .eq(5)
-        .type(option3);
-    });
-    it("Make an option 4 and then delete it", () => {
-      cy.get("div")
-        .should("have.class", "skPoll_container__3gJaD")
-        .get("form")
-        .get("div")
-        .should("have.class", "chakra-stack css-d9swal")
-        .get("button")
-        .should("have.class", "chakra-button css-pazafr")
-        .eq(3)
-        .click();
-      cy.get("div")
-        .should("have.class", "skPoll_container__3gJaD")
-        .get("form")
-        .get("div")
-        .should("have.class", "chakra-stack css-d9swal")
-        .get("button")
-        .should("have.class", "chakra-button css-102nuie")
-        .eq(3)
-        .click();
-    });
-    it("Select the correct answer", () => {
-      cy.get("input")
-        .should("have.class", "chakra-input css-k8y3ie")
-        .eq(2)
-        .click();
-    });
-    it("Submit the quiz to participant", () => {
-      cy.get("button")
-        .should("have.class", "chakra-button css-102nuie")
-        .contains("Submit")
-        .click();
+      it("Create input field for option 1 and type answer option 1 into it", () => {
+        cy.get("form.skPoll_select__33B4f")
+          .find("div.chakra-stack,css-d9swal")
+          .find("button.chakra-button,css-pazafr")
+          .eq(0)
+          .click();
+        cy.get("input#1").type(option1);
+      });
+
+      it("Create input field for option 2 and type answer option 2 into it", () => {
+        cy.get("form.skPoll_select__33B4f")
+          .find("div.chakra-stack,css-d9swal")
+          .find("button.chakra-button,css-pazafr")
+          .eq(0)
+          .click();
+        cy.get("input#2").type(option2);
+      });
+
+      it("Create input field for option 3 and type answer option 3 into it", () => {
+        cy.get("form.skPoll_select__33B4f")
+          .find("div.chakra-stack,css-d9swal")
+          .find("button.chakra-button,css-pazafr")
+          .eq(0)
+          .click();
+        cy.get("input#3").type(option3);
+      });
+
+      it("Create input field for option 4 and type answer option 4 into it", () => {
+        cy.get("form.skPoll_select__33B4f")
+          .find("div.chakra-stack,css-d9swal")
+          .find("button.chakra-button,css-pazafr")
+          .eq(0)
+          .click();
+        cy.get("input#4").type(option4);
+      });
+
+      it("Remove last answer option", () => {
+        cy.get("form.skPoll_select__33B4f")
+          .find("div.chakra-stack,css-d9swal")
+          .find("button.chakra-button,css-102nuie")
+          .eq(0)
+          .click();
+      });
+
+      it("Select the correct answer", () => {
+        cy.get("input#choice1").click();
+      });
+
+      it("Submit the quiz to participant", () => {
+        cy.get("button.chakra-button,css-102nuie").contains("Submit").click();
+      });
     });
   });
 }

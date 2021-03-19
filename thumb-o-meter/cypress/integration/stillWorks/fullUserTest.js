@@ -16,8 +16,11 @@ import checkingForHandFeature from "./featureMenu/checkingHand/checkHand";
 import speakerRaiseHandPreHand from "./speaker/speakerHand/raiseAHandSessionPreHand";
 import participantRaiseHandSession from "./participant/participantHand/raiseAHandSession";
 import speakerRaiseHandAfterHand from "./speaker/speakerHand/raiseAHandSessionAfterHand";
+
 //quiz
 import checkingForQuizFeature from "./featureMenu/checkingQuiz/checkQuiz";
+import speakerLiveQuizSession from "./speaker/speakerQuiz/liveQuizSpeakerSession";
+import participantQuizSession from "./participant/participantQuiz/participantQuizSession";
 //dj deck
 import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
 //admin
@@ -80,7 +83,28 @@ darkMode();
 // lightMode();
 // darkMode();
 checkingForQuizFeature();
-
+speakerLiveQuizSession(
+  "Question",
+  "Answer Option 1",
+  "Answer Option 2",
+  "Answer Option 3",
+  "Answer Option 4"
+);
+// backButton();
+logOut();
+logIn("participantview@gmail.com", "(callbackCats)");
+darkMode();
+// lightMode();
+// darkMode();
+checkingForQuizFeature();
+participantQuizSession(
+  "Question",
+  "Answer Option 1",
+  "Answer Option 2",
+  "Answer Option 3"
+);
+backButton();
+logOut();
 ///////
 // backButton();
 // checkingForDjDeck();
