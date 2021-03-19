@@ -23,9 +23,9 @@ import speakerLiveQuizSession from "./speaker/speakerQuiz/liveQuizSpeakerSession
 import participantQuizSession from "./participant/participantQuiz/participantQuizSession";
 //dj deck
 import checkingForDjDeck from "./featureMenu/checkingDj/checkDj";
-//admin
 import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
-
+//admin
+import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 ////////Thumbometer test
 // openingScreen();
 // logIn("speakerview@gmail.com", "(callbackCats)");
@@ -108,12 +108,20 @@ import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
 // logOut();
 
 /////// dj deck test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
+// checkingForDjDeck();
+// speakerDjDeck();
+// backButton();
+// logOut();
+
+///////admin test
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 // lightMode();
 // darkMode();
-checkingForDjDeck();
-speakerDjDeck();
-backButton();
-logOut();
+speakerAdmin();
