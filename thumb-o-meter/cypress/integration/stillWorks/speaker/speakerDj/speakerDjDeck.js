@@ -3,6 +3,7 @@ function speakerDjDeck() {
     describe("Speaker using the dj deck and playing tunes", () => {
       it("Get hackathon tune play for 5 seconds then stop", () => {
         //checking that is hackathon by label
+        cy.wait(1500);
         cy.get("section")
           .find("div.deck_player__2UZgF")
           .eq(7)
@@ -14,6 +15,7 @@ function speakerDjDeck() {
           .eq(7)
           .find("button")
           .eq(0)
+          .wait(1500)
           .click();
         cy.wait(5000);
         //stops playing hackathon
@@ -23,6 +25,7 @@ function speakerDjDeck() {
           .find("button")
           .eq(2)
           .click();
+        cy.wait(1500);
       });
       it("Get Chris 'Engaged 1' tune and play", () => {
         //checking that is Engaged 1 by label
@@ -37,6 +40,7 @@ function speakerDjDeck() {
           .eq(0)
           .find("button")
           .eq(0)
+          .wait(1500)
           .click();
         cy.wait(5000);
         //stops playing Chris Engaged 1 tune

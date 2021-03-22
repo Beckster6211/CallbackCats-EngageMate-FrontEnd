@@ -38,7 +38,7 @@ function participantQuizSession(question, option1, option2, option3, option4) {
         cy.wait(1500);
       });
 
-      it("Check participant answer correct", () => {
+      it("Check participant answer correct(using colour)", () => {
         cy.get("div.skPollResults_progressDiv__370jh")
           .find("div.css-qe4vho")
           .find("div.css-tez3s")

@@ -85,9 +85,9 @@ backButton();
 // endTest();
 
 // /////quiz test
-openingScreen();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
 // // lightMode();
 // // darkMode();
 checkingForQuizFeature();
@@ -114,18 +114,19 @@ participantQuizSession(
 backButton();
 // logOut();
 logOutLightMode();
-endTest();
+// endTest()
 
-/////// dj deck test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
+///// dj deck test
+openingScreen();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
+// lightMode();
 // darkMode();
-// // lightMode();
-// // darkMode();
-// checkingForDjDeck();
-// speakerDjDeck();
-// backButton();
-// logOut();
+checkingForDjDeck();
+speakerDjDeck();
+backButton();
+logOut();
+endTest();
 
 ///////admin test
 // openingScreen();
