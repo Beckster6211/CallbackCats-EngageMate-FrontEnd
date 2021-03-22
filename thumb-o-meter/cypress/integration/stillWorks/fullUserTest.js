@@ -5,6 +5,7 @@ import logOutLightMode from "./logOut/logOutLightMode";
 import darkMode from "./darkMode/darkMode";
 import lightMode from "./lightMode/lightMode";
 import backButton from "./backButton/backButton";
+import endTest from "./endTest/endTest";
 
 //thumb
 import checkingForThumbOMeterFeature from "./featureMenu/checkingThumb/checkThumb";
@@ -35,18 +36,18 @@ darkMode();
 lightMode();
 darkMode();
 checkingForThumbOMeterFeature();
-backButton();
+// // backButton();
 speakerThumbSession("Question", 100);
 backButton();
 logOut();
 logIn("participantview@gmail.com", "(callbackCats)");
 darkMode();
 lightMode();
-// darkMode();
+// // darkMode();
 checkingForThumbOMeterFeature();
 participantThumbSession();
 backButton();
-// logOut();
+// // logOut();
 logOutLightMode();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
@@ -54,6 +55,7 @@ checkingForThumbOMeterFeature();
 speakerStopThumbSession();
 backButton();
 logOut();
+endTest();
 
 //////hand test
 // openingScreen();

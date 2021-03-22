@@ -11,6 +11,7 @@ function logIn(email, password) {
       cy.get("div.css-d9swal")
         .children("button.loginButton_loginButton__muE4-")
         .contains("Log In")
+        .wait(1500)
         .click();
     });
   });
@@ -23,6 +24,7 @@ function logIn(email, password) {
         .get("input.auth0-lock-input")
         .first()
         .type(email);
+      cy.wait(1500);
       // works with just this line cy.get("input.auth0-lock-input").first().type(email);
       // cy.wait(1000);
       cy.get("div.auth0-lock-input-block,auth0-lock-input-show-password")
@@ -31,8 +33,8 @@ function logIn(email, password) {
         .get("input.auth0-lock-input")
         .last()
         .type(password);
+      cy.wait(1500);
       // works with just this line cy.get("input.auth0-lock-input").last().type(password);
-      // cy.wait(1000);
       cy.get("button.auth0-lock-submit").click();
     });
   });

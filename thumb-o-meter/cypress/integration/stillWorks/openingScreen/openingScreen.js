@@ -3,7 +3,7 @@ function openingScreen() {
   describe("Getting to opening screen", () => {
     it("should show EngageMate log in page of app", () => {
       cy.visit("http://localhost:3000");
-      cy.wait(1000);
+      cy.wait(1500);
     });
   });
 }
