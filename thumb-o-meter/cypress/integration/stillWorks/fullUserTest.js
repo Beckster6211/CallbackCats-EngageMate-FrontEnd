@@ -85,9 +85,9 @@ backButton();
 // endTest();
 
 // /////quiz test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
+openingScreen();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
 // // lightMode();
 // // darkMode();
 checkingForQuizFeature();
@@ -105,14 +105,16 @@ logIn("participantview@gmail.com", "(callbackCats)");
 // // lightMode();
 // // darkMode();
 checkingForQuizFeature();
-// participantQuizSession(
-//   "Question",
-//   "Answer Option 1",
-//   "Answer Option 2",
-//   "Answer Option 3"
-// );
-// backButton();
+participantQuizSession(
+  "Question",
+  "Answer Option 1",
+  "Answer Option 2",
+  "Answer Option 3"
+);
+backButton();
 // logOut();
+logOutLightMode();
+endTest();
 
 /////// dj deck test
 // openingScreen();
