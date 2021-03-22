@@ -115,24 +115,24 @@ import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 // logOutLightMode();
 // // endTest()
 
-// ///// dj deck test
-// // openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
-// checkingForDjDeck();
-// speakerDjDeck();
-// backButton();
-// // logOut();
-// // endTest();
-
-///admin test
+///// dj deck test
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 // lightMode();
 // darkMode();
-speakerAdmin();
+checkingForDjDeck();
+speakerDjDeck();
+backButton();
 logOut();
 endTest();
+
+// ///admin test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
+// speakerAdmin();
+// logOut();
+// endTest();

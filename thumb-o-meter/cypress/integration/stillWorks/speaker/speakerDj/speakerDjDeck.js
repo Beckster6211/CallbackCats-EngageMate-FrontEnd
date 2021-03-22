@@ -15,7 +15,7 @@ function speakerDjDeck() {
           .eq(7)
           .find("button")
           .eq(0)
-          .wait(1500)
+          .wait(1000)
           .click();
         cy.wait(5000);
         //stops playing hackathon
@@ -25,7 +25,7 @@ function speakerDjDeck() {
           .find("button")
           .eq(2)
           .click();
-        cy.wait(1500);
+        cy.wait(500);
       });
       it("Get Chris 'Engaged 1' tune and play", () => {
         //checking that is Engaged 1 by label
@@ -40,9 +40,9 @@ function speakerDjDeck() {
           .eq(0)
           .find("button")
           .eq(0)
-          .wait(1500)
+          .wait(1000)
           .click();
-        cy.wait(5000);
+        cy.wait(2500);
         //stops playing Chris Engaged 1 tune
         // cy.get("section")
         //   .find("div.deck_player__2UZgF")
