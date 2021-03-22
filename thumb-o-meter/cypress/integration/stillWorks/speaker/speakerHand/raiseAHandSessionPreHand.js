@@ -4,6 +4,7 @@ function speakerRaiseHandPreHand() {
       it("Check for notification on raise a hand and contents '0'", () => {
         cy.wait(1500);
         cy.get("div.menu_notify__2TNsh,css-0").children().get("p").contains(0);
+        cy.wait(1500);
       });
     });
   });

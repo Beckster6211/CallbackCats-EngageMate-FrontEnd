@@ -8,12 +8,14 @@ function speakerRaiseHandAfterHand(topic) {
     // });
     describe("Check hand raised, contents and removing hand", () => {
       it("Get ul and check for list item with same as participant input", () => {
+        cy.wait(1500);
         cy.get("section.skHand_handsList__191W5")
           .children()
           .get("ul")
           .within(() => {
             cy.get("li.skHand_handRaise__2FjAN").eq(0).contains(topic);
           });
+        cy.wait(1500);
       });
 
       it("Get X to lower hand", () => {
@@ -23,6 +25,7 @@ function speakerRaiseHandAfterHand(topic) {
           .get("li.skHand_handRaise__2FjAN")
           .children()
           .get("button.skHand_myBtn__Rncnt")
+          .wait(1500)
           .click();
       });
     });

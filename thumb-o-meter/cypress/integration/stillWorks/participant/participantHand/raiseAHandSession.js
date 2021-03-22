@@ -7,8 +7,8 @@ function participantRaiseHandSession(topic) {
       });
 
       it("Get image and click to raise hand", () => {
-        cy.get("img.hand_hand__2CwSx").click();
-        cy.wait(1000);
+        cy.get("img.hand_hand__2CwSx").wait(1500).click();
+        cy.wait(1500);
       });
     });
   });

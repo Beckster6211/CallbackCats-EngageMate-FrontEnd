@@ -54,8 +54,8 @@ darkMode();
 checkingForThumbOMeterFeature();
 speakerStopThumbSession();
 backButton();
-logOut();
-endTest();
+// logOut();
+// endTest();
 
 //////hand test
 // openingScreen();
@@ -63,24 +63,26 @@ endTest();
 // darkMode();
 // // lightMode();
 // // darkMode();
-// speakerRaiseHandPreHand();
-// // checkingForHandFeature();
-// // backButton();
-// logOut();
-// logIn("participantview@gmail.com", "(callbackCats)");
+speakerRaiseHandPreHand();
+checkingForHandFeature();
+backButton();
+logOut();
+logIn("participantview@gmail.com", "(callbackCats)");
 // darkMode();
-// // lightMode();
+// lightMode(); //already in light mode
 // // darkMode();
-// checkingForHandFeature();
-// participantRaiseHandSession("topic test?");
-// backButton();
+checkingForHandFeature();
+participantRaiseHandSession("topic test?");
+backButton();
 // logOut();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// checkingForHandFeature();
-// speakerRaiseHandAfterHand("topic test?");
-// backButton();
+logOutLightMode();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
+checkingForHandFeature();
+speakerRaiseHandAfterHand("topic test?");
+backButton();
 // logOut();
+// endTest();
 
 // /////quiz test
 // openingScreen();
@@ -88,21 +90,21 @@ endTest();
 // darkMode();
 // // lightMode();
 // // darkMode();
-// checkingForQuizFeature();
-// speakerLiveQuizSession(
-//   "Question",
-//   "Answer Option 1",
-//   "Answer Option 2",
-//   "Answer Option 3",
-//   "Answer Option 4"
-// );
+checkingForQuizFeature();
+speakerLiveQuizSession(
+  "Question",
+  "Answer Option 1",
+  "Answer Option 2",
+  "Answer Option 3",
+  "Answer Option 4"
+);
 // // backButton();
-// logOut();
-// logIn("participantview@gmail.com", "(callbackCats)");
+logOut();
+logIn("participantview@gmail.com", "(callbackCats)");
 // darkMode();
 // // lightMode();
 // // darkMode();
-// checkingForQuizFeature();
+checkingForQuizFeature();
 // participantQuizSession(
 //   "Question",
 //   "Answer Option 1",
