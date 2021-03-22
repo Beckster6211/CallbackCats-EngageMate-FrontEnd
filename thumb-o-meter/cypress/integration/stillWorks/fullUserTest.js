@@ -29,110 +29,110 @@ import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
 //admin
 import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 
-////////Thumbometer test
-openingScreen();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
-lightMode();
-darkMode();
-checkingForThumbOMeterFeature();
-// // backButton();
-speakerThumbSession("Question", 100);
-backButton();
-logOut();
-logIn("participantview@gmail.com", "(callbackCats)");
-darkMode();
-lightMode();
-// // darkMode();
-checkingForThumbOMeterFeature();
-participantThumbSession();
-backButton();
+// ////////Thumbometer test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// lightMode();
+// darkMode();
+// checkingForThumbOMeterFeature();
+// // // backButton();
+// speakerThumbSession("Question", 100);
+// backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// darkMode();
+// lightMode();
+// // // darkMode();
+// checkingForThumbOMeterFeature();
+// participantThumbSession();
+// backButton();
+// // // logOut();
+// logOutLightMode();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// checkingForThumbOMeterFeature();
+// speakerStopThumbSession();
+// backButton();
 // // logOut();
-logOutLightMode();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
-checkingForThumbOMeterFeature();
-speakerStopThumbSession();
-backButton();
-// logOut();
-// endTest();
+// // endTest();
 
-//////hand test
-// openingScreen();
+// //////hand test
+// // openingScreen();
+// // logIn("speakerview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // // lightMode();
+// // // darkMode();
+// speakerRaiseHandPreHand();
+// checkingForHandFeature();
+// backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // lightMode(); //already in light mode
+// // // darkMode();
+// checkingForHandFeature();
+// participantRaiseHandSession("topic test?");
+// backButton();
+// // logOut();
+// logOutLightMode();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// checkingForHandFeature();
+// speakerRaiseHandAfterHand("topic test?");
+// backButton();
+// // logOut();
+// // endTest();
+
+// // /////quiz test
+// // openingScreen();
+// // logIn("speakerview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // // lightMode();
+// // // darkMode();
+// checkingForQuizFeature();
+// speakerLiveQuizSession(
+//   "Question",
+//   "Answer Option 1",
+//   "Answer Option 2",
+//   "Answer Option 3"
+// );
+// // // backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // // lightMode();
+// // // darkMode();
+// checkingForQuizFeature();
+// participantQuizSession(
+//   "Question",
+//   "Answer Option 1",
+//   "Answer Option 2",
+//   "Answer Option 3"
+// );
+// backButton();
+// // logOut();
+// logOutLightMode();
+// // endTest()
+
+// ///// dj deck test
+// // openingScreen();
 // logIn("speakerview@gmail.com", "(callbackCats)");
 // darkMode();
 // // lightMode();
 // // darkMode();
-speakerRaiseHandPreHand();
-checkingForHandFeature();
-backButton();
-logOut();
-logIn("participantview@gmail.com", "(callbackCats)");
-// darkMode();
-// lightMode(); //already in light mode
-// // darkMode();
-checkingForHandFeature();
-participantRaiseHandSession("topic test?");
-backButton();
-// logOut();
-logOutLightMode();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
-checkingForHandFeature();
-speakerRaiseHandAfterHand("topic test?");
-backButton();
-// logOut();
-// endTest();
+// checkingForDjDeck();
+// speakerDjDeck();
+// backButton();
+// // logOut();
+// // endTest();
 
-// /////quiz test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
-checkingForQuizFeature();
-speakerLiveQuizSession(
-  "Question",
-  "Answer Option 1",
-  "Answer Option 2",
-  "Answer Option 3",
-  "Answer Option 4"
-);
-// // backButton();
-logOut();
-logIn("participantview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
-checkingForQuizFeature();
-participantQuizSession(
-  "Question",
-  "Answer Option 1",
-  "Answer Option 2",
-  "Answer Option 3"
-);
-backButton();
-// logOut();
-logOutLightMode();
-// endTest()
-
-///// dj deck test
+///admin test
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 // lightMode();
 // darkMode();
-checkingForDjDeck();
-speakerDjDeck();
-backButton();
-logOut();
-endTest();
-
-///////admin test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
-// speakerAdmin();
+speakerAdmin();
 // logOut();
+// endTest();

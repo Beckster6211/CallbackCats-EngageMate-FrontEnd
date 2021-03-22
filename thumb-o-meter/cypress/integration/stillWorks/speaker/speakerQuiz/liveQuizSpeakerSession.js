@@ -55,7 +55,7 @@ function speakerLiveQuizSession(question, option1, option2, option3, option4) {
           .eq(0)
           .wait(1500)
           .click();
-        cy.get("input#4").type(option4);
+        // cy.get("input#4").type(option4);
         cy.wait(1500);
       });
 
@@ -64,7 +64,6 @@ function speakerLiveQuizSession(question, option1, option2, option3, option4) {
           .find("div.chakra-stack,css-d9swal")
           .find("button.chakra-button,css-102nuie")
           .eq(0)
-          .wait(1500)
           .click();
         cy.wait(1500);
       });
