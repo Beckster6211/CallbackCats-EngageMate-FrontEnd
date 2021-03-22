@@ -4,7 +4,7 @@ function speakerThumbSession(question, timer) {
   describe("Speaker starting thumbometer session", () => {
     describe("Check for question dropdown", () => {
       it("Get question drop down, check contents, select preset then change to custom and add a question", () => {
-        cy.wait(1500);
+        cy.wait(1000);
         //get question dropdown
         cy.get("select.chakra-select,skThumb_select__1BCKK,css-ts6fv")
           .eq(0)
@@ -18,7 +18,7 @@ function speakerThumbSession(question, timer) {
             cy.get("option").eq(4).contains("Set a custom question.");
           });
         //select a preset question
-        cy.wait(1500);
+        cy.wait(1000);
         cy.get("select.chakra-select,skThumb_select__1BCKK,css-ts6fv")
           .eq(0)
           .select("Did you understand that?")
@@ -29,16 +29,16 @@ function speakerThumbSession(question, timer) {
           .eq(0)
           .select("Set a custom question.")
           .should("have.value", "custom");
-        cy.wait(1500);
+        cy.wait(1000);
         // Type custom question
         cy.get("input.chakra-input,css-1kzfnz9").eq(0).type(question);
-        cy.wait(1500);
+        cy.wait(1000);
       });
     });
 
     describe("Check for timer dropdown", () => {
       it("Get timer drop down, check contents, select preset then change to custom and add time", () => {
-        cy.wait(1500);
+        cy.wait(1000);
         //get timer drop down
         cy.get("select.chakra-select,skThumb_select__1BCKK,css-ts6fv")
           .eq(1)
@@ -52,7 +52,7 @@ function speakerThumbSession(question, timer) {
             cy.get("option").eq(6).contains("Set a custom time.");
           });
         //select preset timer
-        cy.wait(1500);
+        cy.wait(1000);
         cy.get("select.chakra-select,skThumb_select__1BCKK,css-ts6fv")
           .eq(1)
           .select("20 Seconds")
@@ -63,7 +63,7 @@ function speakerThumbSession(question, timer) {
           .eq(1)
           .select("Set a custom time.")
           .should("have.value", "custom");
-        cy.wait(1500);
+        cy.wait(1000);
         // type custom timer
         cy.get("input.chakra-input,css-1kzfnz9").eq(1).type(timer);
         cy.wait(1500);
@@ -75,7 +75,7 @@ function speakerThumbSession(question, timer) {
         //get start timer button
         cy.get("button.chakra-button,skThumb_button__2Hiz-,css-ywjnlx")
           .contains("Start Timer")
-          .wait(1500)
+          .wait(1000)
           .click();
         cy.wait(1500);
       });

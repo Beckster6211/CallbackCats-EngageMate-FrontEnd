@@ -3,7 +3,7 @@ function lightMode() {
     it("Get button controls light mode and clicks it", () => {
       //changes to light mode
       cy.get("button.css-14g9kwn").click();
-      cy.wait(1500);
+      cy.wait(1000);
     });
   });
 }

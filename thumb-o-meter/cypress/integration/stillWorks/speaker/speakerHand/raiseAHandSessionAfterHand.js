@@ -8,7 +8,7 @@ function speakerRaiseHandAfterHand(topic) {
     // });
     describe("Check hand raised, contents and removing hand", () => {
       it("Get ul and check for list item with same as participant input", () => {
-        cy.wait(1500);
+        cy.wait(1000);
         cy.get("section.skHand_handsList__191W5")
           .children()
           .get("ul")

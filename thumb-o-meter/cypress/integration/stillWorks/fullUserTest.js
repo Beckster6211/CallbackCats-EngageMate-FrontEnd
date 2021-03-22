@@ -29,38 +29,38 @@ import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
 //admin
 import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 
-// ////////Thumbometer test
+////////Thumbometer test
+openingScreen();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
+lightMode();
+darkMode();
+checkingForThumbOMeterFeature();
+// // backButton();
+speakerThumbSession("Question", 100);
+backButton();
+logOut();
+logIn("participantview@gmail.com", "(callbackCats)");
+darkMode();
+lightMode();
+// // darkMode();
+checkingForThumbOMeterFeature();
+participantThumbSession();
+backButton();
+// // logOut();
+logOutLightMode();
+logIn("speakerview@gmail.com", "(callbackCats)");
+darkMode();
+checkingForThumbOMeterFeature();
+speakerStopThumbSession();
+backButton();
+logOut();
+endTest();
+
+// //////hand test
 // openingScreen();
 // logIn("speakerview@gmail.com", "(callbackCats)");
 // darkMode();
-// lightMode();
-// darkMode();
-// checkingForThumbOMeterFeature();
-// // // backButton();
-// speakerThumbSession("Question", 100);
-// backButton();
-// logOut();
-// logIn("participantview@gmail.com", "(callbackCats)");
-// darkMode();
-// lightMode();
-// // // darkMode();
-// checkingForThumbOMeterFeature();
-// participantThumbSession();
-// backButton();
-// // // logOut();
-// logOutLightMode();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// checkingForThumbOMeterFeature();
-// speakerStopThumbSession();
-// backButton();
-// // logOut();
-// // endTest();
-
-// //////hand test
-// // openingScreen();
-// // logIn("speakerview@gmail.com", "(callbackCats)");
-// // darkMode();
 // // // lightMode();
 // // // darkMode();
 // speakerRaiseHandPreHand();
@@ -81,8 +81,8 @@ import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 // checkingForHandFeature();
 // speakerRaiseHandAfterHand("topic test?");
 // backButton();
-// // logOut();
-// // endTest();
+// logOut();
+// endTest();
 
 // // /////quiz test
 // // openingScreen();
@@ -115,17 +115,17 @@ import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 // logOutLightMode();
 // // endTest()
 
-///// dj deck test
-openingScreen();
-logIn("speakerview@gmail.com", "(callbackCats)");
-darkMode();
-// lightMode();
+// ///// dj deck test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
 // darkMode();
-checkingForDjDeck();
-speakerDjDeck();
-backButton();
-logOut();
-endTest();
+// // lightMode();
+// // darkMode();
+// checkingForDjDeck();
+// speakerDjDeck();
+// backButton();
+// logOut();
+// endTest();
 
 // ///admin test
 // openingScreen();
