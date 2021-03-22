@@ -34,11 +34,11 @@ function speakerAdminUsersTable() {
         .get("tr.css-0")
         .eq(52)
         .within(() => {
-          cy.get("td").eq(1).contains("Speaker").wait(500);
-          cy.get("td").eq(2).contains("View").wait(500);
-          cy.get("td").eq(3).contains("coach").wait(500);
-          cy.get("td").eq(4).contains(1287).wait(500);
-          cy.get("td").eq(5).contains(4).wait(500);
+          cy.get("td").eq(1).contains("Speaker").wait(750);
+          cy.get("td").eq(2).contains("View").wait(750);
+          cy.get("td").eq(3).contains("coach").wait(750);
+          cy.get("td").eq(4).contains(1287).wait(750);
+          cy.get("td").eq(5).contains(4).wait(750);
           cy.get("td").eq(6).contains("speakerview@gmail.com");
         });
     });
@@ -51,10 +51,10 @@ function speakerAdminUsersTable() {
         .get("tr.css-0")
         .eq(64)
         .within(() => {
-          cy.get("td").eq(1).contains("Cypress").wait(500);
-          cy.get("td").eq(2).contains("Testing").wait(500);
-          cy.get("td").eq(3).contains("coach").wait(500);
-          cy.get("td").eq(6).contains("cypressTesting@gmail.com").wait(500);
+          cy.get("td").eq(1).contains("Cypress").wait(750);
+          cy.get("td").eq(2).contains("Testing").wait(750);
+          cy.get("td").eq(3).contains("coach").wait(750);
+          cy.get("td").eq(6).contains("cypressTesting@gmail.com").wait(750);
         });
       cy.get("div#tabs-9--tabpanel-0")
         .get("table.chakra-table,css-1ac7ejl")

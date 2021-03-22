@@ -3,7 +3,7 @@ function speakerAdminSendAppMessage(message) {
   describe("Speaker send app message", () => {
     //send message feature
     it("Get send app message field, confirm has 'Send App Message' as text and open", () => {
-      cy.wait(1500);
+      cy.wait(1000);
       cy.get("div.chakra-accordion,admin_accordion__1C9yH,css-0")
         .find("div.chakra-accordion__item,css-17mg6aq")
         .eq(1)
@@ -32,7 +32,7 @@ function speakerAdminSendAppMessage(message) {
         .find("form")
         .find("input#message")
         .type(message);
-      cy.wait(1500);
+      cy.wait(2000);
     });
 
     it("Get send message button, confirm has 'Send' as text, click and close send app message", () => {
@@ -41,7 +41,7 @@ function speakerAdminSendAppMessage(message) {
         .find("button.chakra-button,css-o3kgci")
         .contains("Send")
         .click();
-      cy.wait(2000);
+      cy.wait(1000);
       cy.get("div.chakra-accordion,admin_accordion__1C9yH,css-0")
         .find("div.chakra-accordion__item,css-17mg6aq")
         .eq(1)

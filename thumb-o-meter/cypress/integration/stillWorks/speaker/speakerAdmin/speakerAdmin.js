@@ -6,13 +6,13 @@ function speakerAdmin() {
   describe("Speaker Admin test", () => {
     describe("Speaker navigate to admin page, check add user form, send app message, user and session tables", () => {
       it("Navigate to admin page through nav bar", () => {
-        cy.wait(2000);
+        // cy.wait(1000);
         cy.get("div.navBar_navigation__2tOIC,css-k008qs")
           .find("p.chakra-text,navBar_menu__1-72O css-0")
           .eq(4)
           .find("a")
           .contains("Admin")
-          .wait(1500)
+          .wait(1000)
           .click();
       });
       speakerAdminAddUser("Cypress", "Testing", "cypressTesting@gmail.com");

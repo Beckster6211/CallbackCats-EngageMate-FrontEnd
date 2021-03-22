@@ -3,6 +3,7 @@
 function logIn(email, password) {
   describe("Log in app page", () => {
     it("Get EngageMate logo image tag, tagline confirming text and get button by class name and confirm has 'Log In' and then clicks the 'Log In' button", () => {
+      cy.wait(1500);
       cy.get("img.login_myImg__1RN5U");
       cy.get("div.login_logoBox__5cPn4").within(() => {
         cy.get("p").contains("EngageMate");
@@ -24,7 +25,7 @@ function logIn(email, password) {
         .get("input.auth0-lock-input")
         .first()
         .type(email);
-      cy.wait(1500);
+      cy.wait(1000);
       // works with just this line cy.get("input.auth0-lock-input").first().type(email);
       // cy.wait(1000);
       cy.get("div.auth0-lock-input-block,auth0-lock-input-show-password")
@@ -33,7 +34,7 @@ function logIn(email, password) {
         .get("input.auth0-lock-input")
         .last()
         .type(password);
-      cy.wait(1500);
+      cy.wait(1000);
       // works with just this line cy.get("input.auth0-lock-input").last().type(password);
       cy.get("button.auth0-lock-submit").click();
     });

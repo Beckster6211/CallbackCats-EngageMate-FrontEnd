@@ -134,5 +134,5 @@ darkMode();
 // lightMode();
 // darkMode();
 speakerAdmin();
-// logOut();
-// endTest();
+logOut();
+endTest();

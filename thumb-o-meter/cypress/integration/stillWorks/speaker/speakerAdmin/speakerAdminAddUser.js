@@ -2,7 +2,7 @@
 function speakerAdminAddUser(firstName, surname, email) {
   describe("Speaker add a user", () => {
     it("Get add a user form field, confirm has 'Add User Form' as text and open form", () => {
-      cy.wait(1500);
+      cy.wait(1000);
       cy.get("div.chakra-accordion,admin_accordion__1C9yH,css-0")
         .find("div.chakra-accordion__item,css-17mg6aq")
         .eq(0)
