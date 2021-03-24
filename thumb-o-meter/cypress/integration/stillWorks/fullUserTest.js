@@ -29,110 +29,173 @@ import speakerDjDeck from "./speaker/speakerDj/speakerDjDeck";
 //admin
 import speakerAdmin from "./speaker/speakerAdmin/speakerAdmin";
 
-////////Thumbometer test
+// ////////Thumbometer test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// lightMode();
+// darkMode();
+// checkingForThumbOMeterFeature();
+// // // backButton();
+// speakerThumbSession("Am I going at a good speed?", 100);
+// backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// darkMode();
+// lightMode();
+// // // darkMode();
+// checkingForThumbOMeterFeature();
+// participantThumbSession();
+// backButton();
+// // // logOut();
+// logOutLightMode();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// checkingForThumbOMeterFeature();
+// speakerStopThumbSession();
+// backButton();
+// // logOut();
+// // endTest();
+
+// //////hand test
+// // openingScreen();
+// // logIn("speakerview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // // lightMode();
+// // // darkMode();
+// speakerRaiseHandPreHand();
+// checkingForHandFeature();
+// backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // lightMode(); //already in light mode
+// // // darkMode();
+// checkingForHandFeature();
+// participantRaiseHandSession("array mutability");
+// backButton();
+// // logOut();
+// logOutLightMode();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// checkingForHandFeature();
+// speakerRaiseHandAfterHand("array mutability");
+// backButton();
+// // logOut();
+// // endTest();
+
+// /////quiz test
+// // openingScreen();
+// // logIn("speakerview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // // lightMode();
+// // // darkMode();
+// checkingForQuizFeature();
+// speakerLiveQuizSession(
+//   "Declaring a un-reassignable variable?",
+//   "Const",
+//   "Let",
+//   "Var"
+// );
+// // // backButton();
+// logOut();
+// logIn("participantview@gmail.com", "(callbackCats)");
+// // darkMode();
+// // // lightMode();
+// // // darkMode();
+// checkingForQuizFeature();
+// participantQuizSession(
+//   "Declaring a un-reassignable variable?",
+//   "Const",
+//   "Let",
+//   "Var"
+// );
+// backButton();
+// // logOut();
+// logOutLightMode();
+// // endTest();
+
+// ///// dj deck test
+// // openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// // lightMode();
+// // darkMode();
+// checkingForDjDeck();
+// speakerDjDeck();
+// backButton();
+// // logOut();
+// // endTest();
+
+//admin test
+// openingScreen();
+// logIn("speakerview@gmail.com", "(callbackCats)");
+// darkMode();
+// lightMode();
+// darkMode();
+// speakerAdmin();
+// logOut();
+// endTest();
+
+//full user flow
 openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 lightMode();
 darkMode();
 checkingForThumbOMeterFeature();
-// // backButton();
-speakerThumbSession("Question", 100);
+speakerThumbSession("Am I going at a good speed?", 100);
 backButton();
 logOut();
 logIn("participantview@gmail.com", "(callbackCats)");
 darkMode();
 lightMode();
-// // darkMode();
 checkingForThumbOMeterFeature();
 participantThumbSession();
 backButton();
-// // logOut();
 logOutLightMode();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 checkingForThumbOMeterFeature();
 speakerStopThumbSession();
 backButton();
-// logOut();
-// endTest();
-
-//////hand test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
 speakerRaiseHandPreHand();
 checkingForHandFeature();
 backButton();
 logOut();
 logIn("participantview@gmail.com", "(callbackCats)");
-// darkMode();
-// lightMode(); //already in light mode
-// // darkMode();
 checkingForHandFeature();
-participantRaiseHandSession("topic test?");
+participantRaiseHandSession("array mutability");
 backButton();
-// logOut();
 logOutLightMode();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
 checkingForHandFeature();
-speakerRaiseHandAfterHand("topic test?");
+speakerRaiseHandAfterHand("array mutability");
 backButton();
-// logOut();
-// endTest();
-
-/////quiz test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
 checkingForQuizFeature();
 speakerLiveQuizSession(
-  "Question",
-  "Answer Option 1",
-  "Answer Option 2",
-  "Answer Option 3"
+  "Which declares a un-reassignable variable?",
+  "Const",
+  "Let",
+  "Var"
 );
-// // backButton();
 logOut();
 logIn("participantview@gmail.com", "(callbackCats)");
-// darkMode();
-// // lightMode();
-// // darkMode();
 checkingForQuizFeature();
 participantQuizSession(
-  "Question",
-  "Answer Option 1",
-  "Answer Option 2",
-  "Answer Option 3"
+  "Declaring a un-reassignable variable?",
+  "Const",
+  "Let",
+  "Var"
 );
 backButton();
-// logOut();
 logOutLightMode();
-// endTest();
-
-///// dj deck test
-// openingScreen();
 logIn("speakerview@gmail.com", "(callbackCats)");
 darkMode();
-// lightMode();
-// darkMode();
 checkingForDjDeck();
 speakerDjDeck();
 backButton();
-// logOut();
-// endTest();
-
-///admin test
-// openingScreen();
-// logIn("speakerview@gmail.com", "(callbackCats)");
-// darkMode();
-// lightMode();
-// darkMode();
 speakerAdmin();
 logOut();
 endTest();
