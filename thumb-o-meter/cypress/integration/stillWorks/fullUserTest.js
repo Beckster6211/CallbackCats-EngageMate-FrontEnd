@@ -175,7 +175,7 @@ speakerRaiseHandAfterHand("array mutability");
 backButton();
 checkingForQuizFeature();
 speakerLiveQuizSession(
-  "Which declares a un-reassignable variable?",
+  "Which declares a variable that can't be reassigned?",
   "Const",
   "Let",
   "Var"
@@ -184,7 +184,7 @@ logOut();
 logIn("participantview@gmail.com", "(callbackCats)");
 checkingForQuizFeature();
 participantQuizSession(
-  "Declaring a un-reassignable variable?",
+  "Which declares a variable that can't be reassigned?",
   "Const",
   "Let",
   "Var"
@@ -196,6 +196,6 @@ darkMode();
 checkingForDjDeck();
 speakerDjDeck();
 backButton();
-speakerAdmin();
+// speakerAdmin(); peoples details
 logOut();
 endTest();
