@@ -196,6 +196,6 @@ darkMode();
 checkingForDjDeck();
 speakerDjDeck();
 backButton();
-// speakerAdmin(); peoples details
+speakerAdmin(); //peoples details
 logOut();
 endTest();

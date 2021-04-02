@@ -49,7 +49,7 @@ function speakerAdminUsersTable() {
         .get("table.chakra-table,css-1ac7ejl")
         .get("tbody.css-0")
         .get("tr.css-0")
-        .eq(64)
+        .eq(58)
         .within(() => {
           cy.get("td").eq(1).contains("Cypress").wait(750);
           cy.get("td").eq(2).contains("Testing").wait(750);
@@ -60,7 +60,7 @@ function speakerAdminUsersTable() {
         .get("table.chakra-table,css-1ac7ejl")
         .get("tbody.css-0")
         .get("tr.css-0")
-        .eq(64)
+        .eq(53)
         .find("td")
         .eq(0)
         .click();
