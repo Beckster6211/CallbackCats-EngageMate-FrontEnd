@@ -35,7 +35,7 @@ function SessionTable({ tableData, deleteSession }) {
             <Th>Coach</Th>
             <Th>Participants</Th>
             <Th>Responses</Th>
-            <Th>Throwaway</Th>
+            {/* <Th>Throwaway</Th> */}
           </Tr>
         </Thead>
         <Tbody>
@@ -58,7 +58,7 @@ function SessionTable({ tableData, deleteSession }) {
                 <Td>{session?.coach}</Td>
                 <Td>{session.participants}</Td>
                 <Td>{session.responses}</Td>
-                <Td>{session.throwaway ? " ✅ " : "❌ "}</Td>
+                {/* <Td>{session.throwaway ? " ✅ " : "❌ "}</Td> */}
               </Tr>
             );
           })}
