@@ -91,7 +91,7 @@ function SessionFilter({ tableData, setFilteredData }) {
                   </InputGroup>
                 </div>
 
-                <div className={style.toggleDiv}>
+                {/* <div className={style.toggleDiv}>
                   <div>
                     <span>Toggle ThrowAway:</span>{" "}
                     <Checkbox
@@ -115,7 +115,7 @@ function SessionFilter({ tableData, setFilteredData }) {
                   >
                     Clear
                   </Button>
-                </div>
+                </div> */}
               </div>
             </div>
           </AccordionPanel>

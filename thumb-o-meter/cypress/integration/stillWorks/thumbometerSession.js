@@ -15,7 +15,7 @@ darkMode();
 lightMode();
 darkMode();
 checkingForThumbOMeterFeature();
-speakerThumbSession();
+speakerThumbSession("Question?", 100);
 backButton();
 logOut();
 logIn("participantview@gmail.com", "(callbackCats)");

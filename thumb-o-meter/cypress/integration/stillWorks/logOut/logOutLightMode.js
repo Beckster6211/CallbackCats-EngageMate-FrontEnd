@@ -1,10 +1,10 @@
-//logging out of the app
+//logging out of the app in light mode
 
-function logOut() {
-  describe("Log out of app", () => {
+function logOutLightMode() {
+  describe("Log out of app in light mode", () => {
     it("Get logout button through the nav bar confirm has 'Log Out' as text then click the 'Log Out' button", () => {
       cy.wait(1500);
-      cy.get("button.chakra-button,logout_btn__3P-26,css-zgm9my")
+      cy.get("button.chakra-button,logout_btn__3P-26,css-1pkkric")
         .contains("Log Out")
         .wait(1000)
         .click();
@@ -13,4 +13,4 @@ function logOut() {
   });
 }
 
-export default logOut;
+export default logOutLightMode;
