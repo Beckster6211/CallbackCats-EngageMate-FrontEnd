@@ -27,7 +27,8 @@ Open the thumbometer feature (either through the nav bar or by clicking on the t
 
 Participant instructions
 Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon).
-When the speaker has submitted a question it appears in a heading. The participant can then use the slider below the thumb to register their response to the question. Left is low, right is high as the participant moves the slider the thumb rotates round. Thumb down - low, thumb up - high. The percentage amount of their response is also displayed. The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
+
+<!-- When the speaker has submitted a question it appears in a heading. The participant can then use the slider below the thumb to register their response to the question. Left is low, right is high as the participant moves the slider the thumb rotates round. Thumb down - low, thumb up - high. The percentage amount of their response is also displayed. The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
 
 Raise A Hand
 Speaker instructions
@@ -57,4 +58,68 @@ Example
 Do you want a laugh?
 Here is an example of how our app works. This video is actually us presenting EngageMate when it was in its infancy. When we were more like Callback Kittens.
 (link to demo day video)
-The video shows as well as how the app works, the planning and also what technologies were used in creating it, where they were implemented and how.
+The video shows as well as how the app works, the planning and also what technologies were used in creating it, where they were implemented and how. -->
+
+# CallbackCats() :smiley_cat:
+
+## Front-End :nut_and_bolt:
+
+Technologies used to create the front-end development of our app (some of them).
+
+### Construction :hammer:
+
+#### React
+
+React for the core of our build with making the components, how they operate, their functionality and also navigation of them.
+
+(Some react extenstions used)
+
+React-Dom
+<br>
+React-Router
+<br>
+React-Router-Dom
+<br>
+React-Howler
+
+#### CSS :art:
+
+Chakra-ui for the core of the styling.
+
+(For animation and additional styling)
+
+Emotion
+<br>
+Animate
+<br>
+Framer-Motion
+
+#### Users :woman::man:
+
+Help with creating users to use the app
+
+Uuid
+<br>
+Xlsx
+
+#### Session :electric_plug:
+
+Socket.io
+<br>
+Moment
+<br>
+Push.js
+
+#### Authorisation :no_entry:
+
+For Access to the app
+
+Auth0
+
+#### Testing :construction:
+
+For testing the apps function and user flow
+
+Cypress
+<br>
+Jest
