@@ -1,4 +1,4 @@
-CallbackCats - EngageMate
+<!-- CallbackCats - EngageMate
 
 Remote teaching delivery? Headache no more!
 
@@ -26,7 +26,7 @@ Speaker instructions
 Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon). To give a question you can use the drop down to select one of the preset question options provided or if you select custom an input field is then given and you may type your own. Similar to how you can give a timer you can select one of the preset options from the timer drop down or pick custom and an input field is given and you may type your own (numbers in seconds). Then you can pick start and wait for the results. You will see the results displayed by the rotation of the thumb that has now appeared on the scene. Down is low, Up is high. The results are also available as a percentage below as well showing how many participants have already submitted their response. This is handy as if all the participants have already submitted their result and there is time left you can end it with the stop timer button.The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below. That session data is then submitted to the database for a later date.
 
 Participant instructions
-Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon).
+Open the thumbometer feature (either through the nav bar or by clicking on the thumb icon). -->
 
 <!-- When the speaker has submitted a question it appears in a heading. The participant can then use the slider below the thumb to register their response to the question. Left is low, right is high as the participant moves the slider the thumb rotates round. Thumb down - low, thumb up - high. The percentage amount of their response is also displayed. The time amount is displayed with a progression bar and when it gets down to 5 seconds it turns red, also displayed in digits below.
 
